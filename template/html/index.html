@@ -12,29 +12,6 @@
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <link
-      rel="apple-touch-icon"
-      type="image/x-icon"
-      href="img/apple-touch-icon-57x57-precomposed.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      type="image/x-icon"
-      sizes="72x72"
-      href="img/apple-touch-icon-72x72-precomposed.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      type="image/x-icon"
-      sizes="114x114"
-      href="img/apple-touch-icon-114x114-precomposed.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      type="image/x-icon"
-      sizes="144x144"
-      href="img/apple-touch-icon-144x144-precomposed.png"
-    />
 
     <!-- GOOGLE WEB FONT -->
     <link
@@ -90,23 +67,24 @@
               <div class="subheader" id="quote"></div>
               <div class="row">
                 <aside class="col-xl-3 col-lg-4">
-                  <h2>Request a Quote and Compare prices!</h2>
+                  <h2>THE CITY OF OTTAWA 2023</h2>
                   <p class="lead">
-                    An mei sadipscing dissentiet, eos ea partem viderer
-                    facilisi.
+                    Have you answered this survey today or yesterday (October
+                    27th)
                   </p>
                   <ul class="list_ok">
                     <li>
-                      Delicata persecuti ei nec, et his minim omnium, aperiam
-                      placerat ea vis.
+                      Participation is voluntary and your name will not be
+                      recorded. This is an anonymous survey.
                     </li>
                     <li>
-                      Suavitate vituperatoribus pro ad, cum in quis propriae
-                      abhorreant.
+                      We will be asking a wide range of questions some of
+                      which may be personal to you. You can choose to skip any
+                      question or to stop the interview at any time.
                     </li>
                     <li>
-                      Aperiri deterruisset ei mea, sed cu laudem intellegat, eu
-                      mutat iuvaret voluptatum mei.
+                      I will read the consent and will ask you if you agree to
+                      participate.
                     </li>
                   </ul>
                 </aside>
@@ -115,7 +93,7 @@
                 <div class="col-xl-9 col-lg-8">
                   <div id="wizard_container">
                     <div id="top-wizard">
-                      <strong>Progress</strong>
+                      <strong>Survey Progress</strong>
                       <div id="progressbar"></div>
                     </div>
                     <!-- /top-wizard -->
@@ -128,56 +106,86 @@
                         value=""
                       /><!-- Leave for security protection, read docs for details -->
                       <div id="middle-wizard">
+
+
                         <div class="step">
                           <h3 class="main_question">
-                            <strong>1/10</strong>What is your budget?
+                            <strong>1/10</strong>1. Do you have family members
+                            or anyone else who is staying with you tonight? /
+                            Did you have any family members or anyone else who
+                            stayed with you last night?
                           </h3>
 
-                          <div class="form-group radio_questions">
-                            <label
-                              >1. My budget is under $500
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is under $500"
-                                class="icheck required"
-                              />
-                            </label>
+                          <div class="row add_bottom_30">
+                            <div class="col-sm-6">
+                              <div class="form-group checkbox_questions">
+                                <label>
+                                  <input
+                                    name="question_2[]"
+                                    type="checkbox"
+                                    value="Custom interface and layout"
+                                    class="icheck required"
+                                  />NONE
+                                </label>
+                              </div>
+                              <div class="form-group checkbox_questions">
+                                <label>
+                                  <input
+                                    name="question_2[]"
+                                    type="checkbox"
+                                    value="Web site design"
+                                    class="icheck required"
+                                  />PARTNER
+                                </label>
+                              </div>
+                              <div class="form-group checkbox_questions">
+                                <label>
+                                  <input
+                                    name="question_2[]"
+                                    type="checkbox"
+                                    value="Seo optimization"
+                                    class="icheck required"
+                                  />OTHER ADULT(S) (Can include other family or
+                                  friends)
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                              <div class="form-group checkbox_questions">
+                                <label>
+                                  <input
+                                    name="question_2[]"
+                                    type="checkbox"
+                                    value="CMS integrations (Wordpress)"
+                                    class="icheck required"
+                                  />DECLINE TO ANSWER
+                                </label>
+                              </div>
+                              <div class="form-group checkbox_questions">
+                                <label>
+                                  <input
+                                    name="question_2[]"
+                                    type="checkbox"
+                                    value="Domain registration"
+                                    class="icheck required"
+                                  />CHILD(REN)/DEPENDENT(S)
+                                </label>
+                              </div>
+                            </div>
                           </div>
-                          <div class="form-group radio_questions">
-                            <label
-                              >2. My budget is between $500 and $1000
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is between $500 and $1000"
-                                class="icheck required"
-                              />
-                            </label>
-                          </div>
-                          <div class="form-group radio_questions">
-                            <label
-                              >3. My budget is between $1000 and $1500
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is between $1000 and $1500"
-                                class="icheck required"
-                              />
-                            </label>
-                          </div>
-                          <div class="form-group radio_questions">
-                            <label
-                              >4. My budget is over $1500
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is over $1500"
-                                class="icheck required"
-                              />
-                            </label>
+                          <!-- /row-->
+                          <div class="form-group textarea_info">
+                            <label>Additional info</label>
+                            <textarea
+                              name="addtional_info"
+                              class="form-control"
+                              style="height: 150px"
+                              placeholder="indicate gender and age for each"
+                            ></textarea>
                           </div>
                         </div>
+
 
                         <div class="step">
                           <h3 class="main_question">
