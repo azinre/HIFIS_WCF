@@ -1,962 +1,500 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="QUOTE - Request a quote for every type of companies"
-    />
-    <meta name="author" content="Ansonika" />
-    <title>OTTAWA CITY - sURVEY /......</title>
 
-    <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="QUOTE - Request a quote for every type of companies" />
+  <meta name="author" content="Ansonika" />
+  <title>OTTAWA CITY - SURVEY /......</title>
 
-    <!-- GOOGLE WEB FONT -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Favicons-->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-    <!-- BASE CSS -->
-    <link href="css/animate.min.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet" />
-    <link href="css/magnific-popup.min.css" rel="stylesheet" />
-    <link href="css/skins/square/yellow.css" rel="stylesheet" />
+  <!-- GOOGLE WEB FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+    rel="stylesheet" />
 
-    <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet" />
-  </head>
+  <!-- BASE CSS -->
+  <link href="css/animate.min.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet" />
+  <link href="css/magnific-popup.min.css" rel="stylesheet" />
+  <link href="css/skins/square/yellow.css" rel="stylesheet" />
 
-  <body style="background-color: white">
-    <div id="loader_form">
-      <div data-loader="circle-side-2"></div>
-    </div>
-    <!-- /Loader_form -->
+  <!-- YOUR CUSTOM CSS -->
+  <link href="css/custom.css" rel="stylesheet" />
+</head>
 
-    <header>
-      <a
-        id="menu-button-mobile"
-        class="cmn-toggle-switch cmn-toggle-switch__htx"
-        href="javascript:void(0);"
-        ><span>Menu mobile</span></a
-      >
-      <nav class="main_nav">
-        <ul class="nav nav-tabs">
-          <li><a href="#tab_1" data-bs-toggle="tab">Request a quote</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- /header -->
+<body style="background-color: #f9f9f9">
+  <div id="loader_form">
+    <div data-loader="circle-side-2"></div>
+  </div>
+  <!-- /Loader_form -->
 
-    <div class="layer"></div>
-    <!-- /mask -->
-
-    <div id="main_container">
-      <div id="header_in">
-        <a href="#0" class="close_in"><i class="pe-7s-close-circle"></i></a>
+  <header>
+    <div class="navbar">
+      <div class=" textNav">
+        Français
+        <hr class="vertical-hr" />
+        Demo Organization
+        <hr class="vertical-hr" />
+        Admin
       </div>
-
-      <div class="wrapper_in">
-        <div class="container-fluid">
-          <div class="tab-content">
-            <div class="tab-pane fade" id="tab_1">
-              <div class="subheader" id="quote"></div>
-              <div class="row">
-                <aside class="col-xl-3 col-lg-4">
-                  <h2>THE CITY OF OTTAWA 2023</h2>
-                  <p class="lead">
-                    Have you answered this survey today or yesterday (October
-                    27th)
-                  </p>
-                  <ul class="list_ok">
-                    <li>
-                      Participation is voluntary and your name will not be
-                      recorded. This is an anonymous survey.
-                    </li>
-                    <li>
-                      We will be asking a wide range of questions some of
-                      which may be personal to you. You can choose to skip any
-                      question or to stop the interview at any time.
-                    </li>
-                    <li>
-                      I will read the consent and will ask you if you agree to
-                      participate.
-                    </li>
-                  </ul>
-                </aside>
-                <!-- /aside -->
-
-                <div class="col-xl-9 col-lg-8">
-                  <div id="wizard_container">
-                    <div id="top-wizard">
-                      <strong>Survey Progress</strong>
-                      <div id="progressbar"></div>
-                    </div>
-                    <!-- /top-wizard -->
-
-                    <form name="example-1" id="wrapped" method="POST">
-                      <input
-                        id="website"
-                        name="website"
-                        type="text"
-                        value=""
-                      /><!-- Leave for security protection, read docs for details -->
-                      <div id="middle-wizard">
-
-
-                        <div class="step">
-                          <h3 class="main_question">
-                            <strong>1/10</strong>1. Do you have family members
-                            or anyone else who is staying with you tonight? /
-                            Did you have any family members or anyone else who
-                            stayed with you last night?
-                          </h3>
-
-                          <div class="row add_bottom_30">
-                            <div class="col-sm-6">
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Custom interface and layout"
-                                    class="icheck required"
-                                  />NONE
-                                </label>
-                              </div>
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Web site design"
-                                    class="icheck required"
-                                  />PARTNER
-                                </label>
-                              </div>
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Seo optimization"
-                                    class="icheck required"
-                                  />OTHER ADULT(S) (Can include other family or
-                                  friends)
-                                </label>
-                              </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="CMS integrations (Wordpress)"
-                                    class="icheck required"
-                                  />DECLINE TO ANSWER
-                                </label>
-                              </div>
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Domain registration"
-                                    class="icheck required"
-                                  />CHILD(REN)/DEPENDENT(S)
-                                </label>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- /row-->
-                          <div class="form-group textarea_info">
-                            <label>Additional info</label>
-                            <textarea
-                              name="addtional_info"
-                              class="form-control"
-                              style="height: 150px"
-                              placeholder="indicate gender and age for each"
-                            ></textarea>
-                          </div>
-                        </div>
-
-
-                        <div class="step">
-                          <h3 class="main_question">
-                            <strong>2/10</strong>What is your budget?
-                          </h3>
-
-                          <div class="form-group radio_questions">
-                            <label
-                              >1. My budget is under $500
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is under $500"
-                                class="icheck required"
-                              />
-                            </label>
-                          </div>
-                          <div class="form-group radio_questions">
-                            <label
-                              >2. My budget is between $500 and $1000
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is between $500 and $1000"
-                                class="icheck required"
-                              />
-                            </label>
-                          </div>
-                          <div class="form-group radio_questions">
-                            <label
-                              >3. My budget is between $1000 and $1500
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is between $1000 and $1500"
-                                class="icheck required"
-                              />
-                            </label>
-                          </div>
-                          <div class="form-group radio_questions">
-                            <label
-                              >4. My budget is over $1500
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is over $1500"
-                                class="icheck required"
-                              />
-                            </label>
-                          </div>
-                        </div>
-
-                        <div class="step">
-                          <h3 class="main_question">
-                            <strong>3/10</strong>What is your budget?
-                          </h3>
-
-                          <div class="form-group radio_questions">
-                            <label
-                              >1. My budget is under $500
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is under $500"
-                                class="icheck required"
-                              />
-                            </label>
-                          </div>
-                          <div class="form-group radio_questions">
-                            <label
-                              >2. My budget is between $500 and $1000
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is between $500 and $1000"
-                                class="icheck required"
-                              />
-                            </label>
-                          </div>
-                          <div class="form-group radio_questions">
-                            <label
-                              >3. My budget is between $1000 and $1500
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is between $1000 and $1500"
-                                class="icheck required"
-                              />
-                            </label>
-                          </div>
-                          <div class="form-group radio_questions">
-                            <label
-                              >4. My budget is over $1500
-                              <input
-                                name="question_1"
-                                type="radio"
-                                value="My budget is over $1500"
-                                class="icheck required"
-                              />
-                            </label>
-                          </div>
-                        </div>
-                        <!-- /step 1-->
-
-                        <div class="step">
-                          <h3 class="main_question">
-                            <strong>4/10</strong>What your poject need?
-                          </h3>
-
-                          <div class="row add_bottom_30">
-                            <div class="col-sm-6">
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Custom interface and layout"
-                                    class="icheck required"
-                                  />Custom interface and layout
-                                </label>
-                              </div>
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Web site design"
-                                    class="icheck required"
-                                  />Web site design
-                                </label>
-                              </div>
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Seo optimization"
-                                    class="icheck required"
-                                  />Seo optimization
-                                </label>
-                              </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="CMS integrations (Wordpress)"
-                                    class="icheck required"
-                                  />CMS integrations (Wordpress)
-                                </label>
-                              </div>
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Domain registration"
-                                    class="icheck required"
-                                  />Domain registration
-                                </label>
-                              </div>
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Hosting plan"
-                                    class="icheck required"
-                                  />Hosting plan
-                                </label>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- /row-->
-                          <div class="form-group textarea_info">
-                            <label>Additional info</label>
-                            <textarea
-                              name="addtional_info"
-                              class="form-control"
-                              style="height: 150px"
-                              placeholder="How many pages, other details, etc..."
-                            ></textarea>
-                          </div>
-                        </div>
-                        <!-- /step 2-->
-
-                        <div class="step">
-                          <h3 class="main_question">
-                            <strong>5/10</strong>Please answer the following
-                            questions:
-                          </h3>
-
-                          <div class="row">
-                            <div class="col-lg-10">
-                              <div class="form-group select">
-                                <label
-                                  >If you already have an hosting plan, please
-                                  define:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_1">
-                                    <option value="" selected>Select</option>
-                                    <option value="Unix/Linux + Mysql">
-                                      Unix/Linux + Mysql
-                                    </option>
-                                    <option value="Windows + Sql">
-                                      Windows + Sql
-                                    </option>
-                                    <option value="Other">Other</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-
-                              <div class="form-group select">
-                                <label
-                                  >If you need an hosting plan, please define
-                                  which one:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_2">
-                                    <option value="" selected>Select</option>
-                                    <option
-                                      value="Hosting Plan 1 year + Mysql database 500MB"
-                                    >
-                                      1 year + Mysql database 500MB
-                                    </option>
-                                    <option
-                                      value="Hosting Plan 2 year + Mysql database 500MB"
-                                    >
-                                      2 year + Mysql database 500MB
-                                    </option>
-                                    <option
-                                      value="Hosting Plan 2 year + Mysql database 1GB"
-                                    >
-                                      2 year + Mysql database 1GB
-                                    </option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-
-                              <div class="form-group select">
-                                <label
-                                  >If you need a newsletter campaign, please
-                                  define the provider you prefer:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_3">
-                                    <option value="" selected>Select</option>
-                                    <option value="Mailchimp">Mailchimp</option>
-                                    <option value="CampaignMonitor">
-                                      CampaignMonitor
-                                    </option>
-                                    <option value="MailUp">MailUp</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-                            </div>
-                          </div>
-                          <!-- /row-->
-                        </div>
-
-                        <div class="step">
-                          <h3 class="main_question">
-                            <strong>6/10</strong>Please answer the following
-                            questions:
-                          </h3>
-
-                          <div class="row">
-                            <div class="col-lg-10">
-                              <div class="form-group select">
-                                <label
-                                  >If you already have an hosting plan, please
-                                  define:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_1">
-                                    <option value="" selected>Select</option>
-                                    <option value="Unix/Linux + Mysql">
-                                      Unix/Linux + Mysql
-                                    </option>
-                                    <option value="Windows + Sql">
-                                      Windows + Sql
-                                    </option>
-                                    <option value="Other">Other</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-
-                              <div class="form-group select">
-                                <label
-                                  >If you need an hosting plan, please define
-                                  which one:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_2">
-                                    <option value="" selected>Select</option>
-                                    <option
-                                      value="Hosting Plan 1 year + Mysql database 500MB"
-                                    >
-                                      1 year + Mysql database 500MB
-                                    </option>
-                                    <option
-                                      value="Hosting Plan 2 year + Mysql database 500MB"
-                                    >
-                                      2 year + Mysql database 500MB
-                                    </option>
-                                    <option
-                                      value="Hosting Plan 2 year + Mysql database 1GB"
-                                    >
-                                      2 year + Mysql database 1GB
-                                    </option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-
-                              <div class="form-group select">
-                                <label
-                                  >If you need a newsletter campaign, please
-                                  define the provider you prefer:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_3">
-                                    <option value="" selected>Select</option>
-                                    <option value="Mailchimp">Mailchimp</option>
-                                    <option value="CampaignMonitor">
-                                      CampaignMonitor
-                                    </option>
-                                    <option value="MailUp">MailUp</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-                            </div>
-                          </div>
-                          <!-- /row-->
-                        </div>
-
-                        <div class="step">
-                          <h3 class="main_question">
-                            <strong>7/10</strong>Please answer the following
-                            questions:
-                          </h3>
-
-                          <div class="row">
-                            <div class="col-lg-10">
-                              <div class="form-group select">
-                                <label
-                                  >If you already have an hosting plan, please
-                                  define:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_1">
-                                    <option value="" selected>Select</option>
-                                    <option value="Unix/Linux + Mysql">
-                                      Unix/Linux + Mysql
-                                    </option>
-                                    <option value="Windows + Sql">
-                                      Windows + Sql
-                                    </option>
-                                    <option value="Other">Other</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-
-                              <div class="form-group select">
-                                <label
-                                  >If you need an hosting plan, please define
-                                  which one:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_2">
-                                    <option value="" selected>Select</option>
-                                    <option
-                                      value="Hosting Plan 1 year + Mysql database 500MB"
-                                    >
-                                      1 year + Mysql database 500MB
-                                    </option>
-                                    <option
-                                      value="Hosting Plan 2 year + Mysql database 500MB"
-                                    >
-                                      2 year + Mysql database 500MB
-                                    </option>
-                                    <option
-                                      value="Hosting Plan 2 year + Mysql database 1GB"
-                                    >
-                                      2 year + Mysql database 1GB
-                                    </option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-
-                              <div class="form-group select">
-                                <label
-                                  >If you need a newsletter campaign, please
-                                  define the provider you prefer:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_3">
-                                    <option value="" selected>Select</option>
-                                    <option value="Mailchimp">Mailchimp</option>
-                                    <option value="CampaignMonitor">
-                                      CampaignMonitor
-                                    </option>
-                                    <option value="MailUp">MailUp</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-                            </div>
-                          </div>
-                          <!-- /row-->
-                        </div>
-
-                        <div class="step">
-                          <h3 class="main_question">
-                            <strong>8/10</strong>Please answer the following
-                            questions:
-                          </h3>
-
-                          <div class="row">
-                            <div class="col-lg-10">
-                              <div class="form-group select">
-                                <label
-                                  >If you already have an hosting plan, please
-                                  define:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_1">
-                                    <option value="" selected>Select</option>
-                                    <option value="Unix/Linux + Mysql">
-                                      Unix/Linux + Mysql
-                                    </option>
-                                    <option value="Windows + Sql">
-                                      Windows + Sql
-                                    </option>
-                                    <option value="Other">Other</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-
-                              <div class="form-group select">
-                                <label
-                                  >If you need an hosting plan, please define
-                                  which one:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_2">
-                                    <option value="" selected>Select</option>
-                                    <option
-                                      value="Hosting Plan 1 year + Mysql database 500MB"
-                                    >
-                                      1 year + Mysql database 500MB
-                                    </option>
-                                    <option
-                                      value="Hosting Plan 2 year + Mysql database 500MB"
-                                    >
-                                      2 year + Mysql database 500MB
-                                    </option>
-                                    <option
-                                      value="Hosting Plan 2 year + Mysql database 1GB"
-                                    >
-                                      2 year + Mysql database 1GB
-                                    </option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-
-                              <div class="form-group select">
-                                <label
-                                  >If you need a newsletter campaign, please
-                                  define the provider you prefer:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_3">
-                                    <option value="" selected>Select</option>
-                                    <option value="Mailchimp">Mailchimp</option>
-                                    <option value="CampaignMonitor">
-                                      CampaignMonitor
-                                    </option>
-                                    <option value="MailUp">MailUp</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-                            </div>
-                          </div>
-                          <!-- /row-->
-                        </div>
-
-                        <div class="step">
-                          <h3 class="main_question">
-                            <strong>9/10</strong>Please answer the following
-                            questions:
-                          </h3>
-
-                          <div class="row">
-                            <div class="col-lg-10">
-                              <div class="form-group select">
-                                <label
-                                  >If you already have an hosting plan, please
-                                  define:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_1">
-                                    <option value="" selected>Select</option>
-                                    <option value="Unix/Linux + Mysql">
-                                      Unix/Linux + Mysql
-                                    </option>
-                                    <option value="Windows + Sql">
-                                      Windows + Sql
-                                    </option>
-                                    <option value="Other">Other</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-
-                              <div class="form-group select">
-                                <label
-                                  >If you need an hosting plan, please define
-                                  which one:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_2">
-                                    <option value="" selected>Select</option>
-                                    <option
-                                      value="Hosting Plan 1 year + Mysql database 500MB"
-                                    >
-                                      1 year + Mysql database 500MB
-                                    </option>
-                                    <option
-                                      value="Hosting Plan 2 year + Mysql database 500MB"
-                                    >
-                                      2 year + Mysql database 500MB
-                                    </option>
-                                    <option
-                                      value="Hosting Plan 2 year + Mysql database 1GB"
-                                    >
-                                      2 year + Mysql database 1GB
-                                    </option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-
-                              <div class="form-group select">
-                                <label
-                                  >If you need a newsletter campaign, please
-                                  define the provider you prefer:</label
-                                >
-                                <div class="styled-select">
-                                  <select class="required" name="select_3">
-                                    <option value="" selected>Select</option>
-                                    <option value="Mailchimp">Mailchimp</option>
-                                    <option value="CampaignMonitor">
-                                      CampaignMonitor
-                                    </option>
-                                    <option value="MailUp">MailUp</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- /select-->
-                            </div>
-                          </div>
-                          <!-- /row-->
-                        </div>
-                        <!-- /step 3-->
-
-                        <div class="submit step">
-                          <h3 class="main_question">
-                            <strong>10/10</strong>Please fill with your details
-                          </h3>
-
-                          <div class="row">
-                            <div class="col-sm-6">
-                              <div class="form-group">
-                                <input
-                                  type="text"
-                                  name="company_name"
-                                  class="form-control"
-                                  placeholder="Your company name"
-                                />
-                              </div>
-                              <div class="form-group">
-                                <input
-                                  type="text"
-                                  name="firstname"
-                                  class="required form-control"
-                                  placeholder="First name"
-                                />
-                              </div>
-                              <div class="form-group">
-                                <input
-                                  type="text"
-                                  name="lastname"
-                                  class="required form-control"
-                                  placeholder="Last name"
-                                />
-                              </div>
-                            </div>
-                            <!-- /col-sm-6 -->
-
-                            <div class="col-sm-6">
-                              <div class="form-group">
-                                <input
-                                  type="email"
-                                  name="email"
-                                  class="required form-control"
-                                  placeholder="Your Email"
-                                />
-                              </div>
-                              <div class="form-group">
-                                <input
-                                  type="text"
-                                  name="telephone"
-                                  class="required form-control"
-                                  placeholder="Your Telephone"
-                                />
-                              </div>
-                              <div class="form-group">
-                                <div class="styled-select">
-                                  <select class="required" name="country">
-                                    <option value="" selected>
-                                      Select your country
-                                    </option>
-                                    <option value="Europe">Europe</option>
-                                    <option value="Asia">Asia</option>
-                                    <option value="North America">
-                                      North America
-                                    </option>
-                                    <option value="South America">
-                                      South America
-                                    </option>
-                                  </select>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- /col-sm-6 -->
-                          </div>
-                          <!-- /row -->
-
-                          <div class="form-group checkbox_questions">
-                            <input
-                              name="terms"
-                              type="checkbox"
-                              class="icheck required"
-                              value="yes"
-                            />
-                            <label
-                              >Please accept
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#terms-txt"
-                                >terms and conditions</a
-                              >
-                              ?
-                            </label>
-                          </div>
-                        </div>
-                        <!-- /step 4-->
-                      </div>
-                      <!-- /middle-wizard -->
-                      <div id="bottom-wizard">
-                        <button type="button" name="backward" class="backward">
-                          Backward
-                        </button>
-                        <button type="button" name="forward" class="forward">
-                          Forward
-                        </button>
-                        <button type="submit" name="process" class="submit">
-                          Submit
-                        </button>
-                      </div>
-                      <!-- /bottom-wizard -->
-                    </form>
-                  </div>
-                  <!-- /Wizard container -->
-                </div>
-                <!-- /col -->
-              </div>
-              <!-- /row -->
+    </div>
+    <div class="blanco"></div>
+    <div class="logo">
+      <span class="bannerTitle">HIFIS</span>
+      <img class="logoCasa" src="img/logoCasa.png" alt="logoCasa" />
+      <p class="bannerTextSec">
+        HOMELESS INDIVIDUALS AND<br />FAMILIES INFORMATION SYSTEM
+      </p>
+    </div>
+    <div class="secondMenu">
+      <div class="textNav">
+        <hr class="vertical-hr2" />
+        PIT Count
+        <hr class="vertical-hr2" />
+      </div>
+    </div>
+    <a id="menu-button-mobile" class="cmn-toggle-switch cmn-toggle-switch__htx" href="javascript:void(0);"><span>Menu
+        mobile</span></a>
+    <nav class="main_nav">
+      <ul class="nav nav-tabs">
+        <li><a href="#tab_1" data-bs-toggle="tab">Start Survey</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- /header -->
+  <!-- MAIN PAGE BEFORE TO LOAD THE SURVEY -->
+  <div class="container mainIndex">
+    <div id="middle-wizard">
+      <div class="step">
+        <h2 class="main_question">Volunteer Information</h2>
+                <!-- <h3 class="main_question">Volunteer Information</h3> -->
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="firstname">First name:</label>
+              <input type="text" id="firstname" name="firstname" class="required form-control">
             </div>
-            <!-- /TAB 1:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
-          </div>
-          <!-- /tab content -->
-        </div>
-        <!-- /container-fluid -->
-      </div>
-      <!-- /wrapper_in -->
-    </div>
-    <!-- /main_container -->
+          </div><!-- /col-sm-6 -->
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="location">Location:</label>
+              <input type="text" id="location" name="location" class="form-control">
+            </div>
+          </div><!-- /col-sm-6 -->
+        </div><!-- /row -->
 
-    <!-- Modal terms -->
-    <div
-      class="modal fade"
-      id="terms-txt"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="termsLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Terms and conditions</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Lorem ipsum dolor sit amet, in porro albucius qui, in
-              <strong>nec quod novum accumsan</strong>, mei ludus tamquam
-              dolores id. No sit debitis meliore postulant, per ex prompta
-              alterum sanctus, pro ne quod dicunt sensibus.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod
-              novum accumsan, mei ludus tamquam dolores id. No sit debitis
-              meliore postulant, per ex prompta alterum sanctus, pro ne quod
-              dicunt sensibus. Lorem ipsum dolor sit amet,
-              <strong>in porro albucius qui</strong>, in nec quod novum
-              accumsan, mei ludus tamquam dolores id. No sit debitis meliore
-              postulant, per ex prompta alterum sanctus, pro ne quod dicunt
-              sensibus.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod
-              novum accumsan, mei ludus tamquam dolores id. No sit debitis
-              meliore postulant, per ex prompta alterum sanctus, pro ne quod
-              dicunt sensibus.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn_1" data-bs-dismiss="modal">
-              Close
-            </button>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" class="required form-control">
+            </div>
+          </div> <!-- /col-sm-6 -->
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="telephone">Your Telephone:</label>
+              <input type="text" id="telephone" name="telephone" class="required form-control">
+            </div>
+          </div> <!-- /col-sm-6 -->
+        </div><!-- /row -->
+        <!-- Survey Introduction -->
+        <p class="survey-intro">I am a surveyor for the Ottawa's Point in Time Count. We are conducting a survey to
+          helps us provide better programs and services to individuals and families who are experiencing homelessness.
+          The survey takes about 10 minutes to complete. </p>
+
+        <!-- Consent and Participation -->
+        <div class="consent">
+          <p>
+          <ul>
+            <li>Participation is voluntary and your name will not be recorded. This is an anonymous survey</li>
+            <li>We will be asking a wide range of questions some of which may be personal to you. You can choose to skip
+              any question or to stop the interview at any time. </li>
+            <li>I will read the consent and will ask you if you agree to participate.</li>
+          </ul>
+          </p>
+          <!-- [Continue with the rest of the consent and participation info] -->
+        </div>
+
+        <!-- Agreement Question -->
+        <div class="form-group">
+          <h2 class="main_question">A. Have you answered this survey today or yesterday (<span id="lbldate"></span>)?
+          </h2>
+          <div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="answeredSurveyYes" name="answeredSurvey" value="Yes">
+                Yes
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="answeredSurveyNo" name="answeredSurvey" value="No">
+                No
+              </label>
+            </div>
           </div>
         </div>
-        <!-- /.modal-content -->
-      </div>
-      <!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
+        <div class="consent-section">
+          <h3>I understand the following, and I agree to be surveyed on the basis that:</h2>
+            <ul>
+              <li>I am at least 16 yrs. of age.</li>
+              <li>I am currently experiencing homelessness.</li>
+              <li>I can refuse to do the survey or can refuse any question, can take a break, or end the survey early
+                without it affecting the services I get now or in the future.</li>
+              <li>My survey information will go into a secure database that can only be accessed by people who have
+                signed
+                a confidentiality form.</li>
+              <li>The purposes of this survey are to help governments and agencies better understand housing needs and
+                homelessness. All the answers will be combined into statistics and used to help governments and agencies
+                plan services and housing. The results of the survey will be made public.</li>
+              <li>I will be asked questions about my age, gender, sexual orientation, family status and history,
+                language,
+                housing history including in institutions, citizenship, race, Indigenous status, military service,
+                health
+                challenges and income. I will also be asked about my needs and desires for housing and services, and
+                obstacles I face. None of this information can be traced to me – everyone’s answers will be pooled.</li>
+              <li>If I tell you that I'm going to harm myself or someone else, I understand that you will have to
+                disclose
+                this information to authorities.</li>
+            </ul>
 
-    <!-- SCRIPTS -->
-    <!-- Jquery-->
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <!-- Common script -->
-    <script src="js/common_scripts_min.js"></script>
-    <!-- Theme script -->
-    <script src="js/functions.js"></script>
-    <!-- Google map -->
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/mapmarker.jquery.js"></script>
-    <script src="js/mapmarker_func.jquery.js"></script>
-  </body>
+            <div class="agreement-section">
+              <h2 class="main_question">B. Consent Agreement</h2>
+              <p class="agreement-text">Do you agree that the survey consent has been read to you, that you fully
+                understand the information provided in it, and that you are voluntarily participating?</p>
+              <div class="form-group options">
+                <div class="radio-option">
+                  <input type="radio" id="consentAgreementYes" name="consentAgreement" value="Yes"
+                    class="form-control-radio">
+                  <label for="consentAgreementYes">Yes</label>
+                </div>
+                <div class="radio-option">
+                  <input type="radio" id="consentAgreementNo" name="consentAgreement" value="No"
+                    class="form-control-radio">
+                  <label for="consentAgreementNo">No</label>
+                </div>
+              </div>
+              <div class="form-group initials-group">
+                <label for="surveyorInitials" class="initials-label">Initials of Surveyor:</label>
+                <input type="text" id="surveyorInitials" name="surveyorInitials" class="form-control initials-input">
+              </div>
+            </div>
+            <p>Thank you for agreeing to take part in the survey. Do you have any questions?</p>
+            <p>Please note that you will receive a $10 gift card as a thank you for your participation.</p>
+<button class="btn btn_primary">Start</button>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="footer2">
+    <div class="footerTitle"><span class="footerTitle2">About</span>
+      <div class="footerInfo">
+        <ul>
+          <li>Reaching Home</li>
+          <li>HIFIS</li>
+          <li>Release Notes</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+        <div class="footerTitle"><span class="footerTitle2">Terms of Service</span>
+      <div class="footerInfo">
+        <ul>
+          <li>End-User Licence Agreement (EULA)</li>
+          <li>Data Provision Agreement (DPA)</li>
+        </ul>
+      </div>
+    </div>
+        <div class="footerTitle"><span class="footerTitle2">Support</span>
+      <div class="footerInfo">
+        <ul>
+          <li>Homelessness Learning Hub</li>
+          <li>HIFIS User Guide</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer3">
+    <div class="footer3Text">Active - Production</div>
+    <div class="footer3Text">Build 4.0.60.1 (2023-10-30)</div>
+  </div>
+  <!-- END MAIN PAGE -->
+  <div class="layer"></div>
+  <!-- /mask -->
+
+  <div id="main_container">
+    <div id="header_in">
+      <a href="#0" class="close_in"><i class="pe-7s-close-circle"></i></a>
+    </div>
+
+    <div class="wrapper_in">
+      <div class="container-fluid">
+        <div class="tab-content">
+          <div class="tab-pane fade" id="tab_1">
+            <div class="subheader" id="quote"></div>
+            <div class="row">
+              <aside class="col-xl-3 col-lg-4">
+                <h2>THE CITY OF OTTAWA 2023</h2>
+                <p class="lead">
+                  Have you answered this survey today or yesterday (<span id="lbldate"></span>).
+                </p>
+                <ul class="list_ok">
+                  <li>
+                    Participation is voluntary and your name will not be
+                    recorded. This is an anonymous survey.
+                  </li>
+                  <li>
+                    We will be asking a wide range of questions some of which
+                    may be personal to you. You can choose to skip any
+                    question or to stop the interview at any time.
+                  </li>
+                  <li>
+                    I will read the consent and will ask you if you agree to
+                    participate.
+                  </li>
+                </ul>
+              </aside>
+              <!-- /aside -->
+
+              <div class="col-xl-9 col-lg-8">
+                <div id="wizard_container">
+                  <div id="top-wizard">
+                    <strong>Survey Progress</strong>
+                    <div id="progressbar"></div>
+                  </div>
+                  <!-- /top-wizard -->
+
+                  <form name="example-1" id="wrapped" method="POST">
+                    <input id="website" name="website" type="text"
+                      value="" /><!-- Leave for security protection, read docs for details -->
+                    <div id="middle-wizard">
+                      <div class="step">
+                        <h3 class="main_question">
+                          <strong>9/10</strong>Please answer the following
+                          questions:
+                        </h3>
+
+                        <div class="row">
+                          <div class="col-lg-10">
+                            <div class="form-group select">
+                              <label>If you already have an hosting plan, please
+                                define:</label>
+                              <div class="styled-select">
+                                <select class="required" name="select_1">
+                                  <option value="" selected>Select</option>
+                                  <option value="Unix/Linux + Mysql">
+                                    Unix/Linux + Mysql
+                                  </option>
+                                  <option value="Windows + Sql">
+                                    Windows + Sql
+                                  </option>
+                                  <option value="Other">Other</option>
+                                </select>
+                              </div>
+                            </div>
+                            <!-- /select-->
+
+                            <div class="form-group select">
+                              <label>If you need an hosting plan, please define
+                                which one:</label>
+                              <div class="styled-select">
+                                <select class="required" name="select_2">
+                                  <option value="" selected>Select</option>
+                                  <option value="Hosting Plan 1 year + Mysql database 500MB">
+                                    1 year + Mysql database 500MB
+                                  </option>
+                                  <option value="Hosting Plan 2 year + Mysql database 500MB">
+                                    2 year + Mysql database 500MB
+                                  </option>
+                                  <option value="Hosting Plan 2 year + Mysql database 1GB">
+                                    2 year + Mysql database 1GB
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
+                            <!-- /select-->
+
+                            <div class="form-group select">
+                              <label>If you need a newsletter campaign, please
+                                define the provider you prefer:</label>
+                              <div class="styled-select">
+                                <select class="required" name="select_3">
+                                  <option value="" selected>Select</option>
+                                  <option value="Mailchimp">Mailchimp</option>
+                                  <option value="CampaignMonitor">
+                                    CampaignMonitor
+                                  </option>
+                                  <option value="MailUp">MailUp</option>
+                                </select>
+                              </div>
+                            </div>
+                            <!-- /select-->
+                          </div>
+                        </div>
+                        <!-- /row-->
+                      </div>
+                      <!-- /step 3-->
+
+                      <div class="submit step">
+                        <h3 class="main_question">
+                          <strong>10/10</strong>Please fill with your details
+                        </h3>
+
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group">
+                              <input type="text" name="company_name" class="form-control"
+                                placeholder="Your company name" />
+                            </div>
+                            <div class="form-group">
+                              <input type="text" name="firstname" class="required form-control"
+                                placeholder="First name" />
+                            </div>
+                            <div class="form-group">
+                              <input type="text" name="lastname" class="required form-control"
+                                placeholder="Last name" />
+                            </div>
+                          </div>
+                          <!-- /col-sm-6 -->
+
+                          <div class="col-sm-6">
+                            <div class="form-group">
+                              <input type="email" name="email" class="required form-control" placeholder="Your Email" />
+                            </div>
+                            <div class="form-group">
+                              <input type="text" name="telephone" class="required form-control"
+                                placeholder="Your Telephone" />
+                            </div>
+                            <div class="form-group">
+                              <div class="styled-select">
+                                <select class="required" name="country">
+                                  <option value="" selected>
+                                    Select your country
+                                  </option>
+                                  <option value="Europe">Europe</option>
+                                  <option value="Asia">Asia</option>
+                                  <option value="North America">
+                                    North America
+                                  </option>
+                                  <option value="South America">
+                                    South America
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- /col-sm-6 -->
+                        </div>
+                        <!-- /row -->
+
+                        <div class="form-group checkbox_questions">
+                          <input name="terms" type="checkbox" class="icheck required" value="yes" />
+                          <label>Please accept
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#terms-txt">terms and conditions</a>
+                            ?
+                          </label>
+                        </div>
+                      </div>
+                      <!-- /step 4-->
+                    </div>
+                    <!-- /middle-wizard -->
+                    <div id="bottom-wizard">
+                      <button type="button" name="backward" class="backward">
+                        Backward
+                      </button>
+                      <button type="button" name="forward" class="forward">
+                        Forward
+                      </button>
+                      <button type="submit" name="forward" class="submit">
+                        End Survey
+                      </button>
+                      <button type="submit" name="process" class="submit">
+                        Submit
+                      </button>
+                    </div>
+                    <!-- /bottom-wizard -->
+                  </form>
+                </div>
+                <!-- /Wizard container -->
+              </div>
+              <!-- /col -->
+            </div>
+            <!-- /row -->
+          </div>
+          <!-- /TAB 1:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        </div>
+        <!-- /tab content -->
+      </div>
+      <!-- /container-fluid -->
+    </div>
+    <!-- /wrapper_in -->
+  </div>
+  <!-- /main_container -->
+
+  <!-- Modal terms -->
+  <div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Terms and conditions</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Lorem ipsum dolor sit amet, in porro albucius qui, in
+            <strong>nec quod novum accumsan</strong>, mei ludus tamquam
+            dolores id. No sit debitis meliore postulant, per ex prompta
+            alterum sanctus, pro ne quod dicunt sensibus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod
+            novum accumsan, mei ludus tamquam dolores id. No sit debitis
+            meliore postulant, per ex prompta alterum sanctus, pro ne quod
+            dicunt sensibus. Lorem ipsum dolor sit amet,
+            <strong>in porro albucius qui</strong>, in nec quod novum
+            accumsan, mei ludus tamquam dolores id. No sit debitis meliore
+            postulant, per ex prompta alterum sanctus, pro ne quod dicunt
+            sensibus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod
+            novum accumsan, mei ludus tamquam dolores id. No sit debitis
+            meliore postulant, per ex prompta alterum sanctus, pro ne quod
+            dicunt sensibus.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn_1" data-bs-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <!-- SCRIPTS -->
+  <!-- Jquery-->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <!-- Common script -->
+  <script src="js/common_scripts_min.js"></script>
+  <!-- Theme script -->
+  <script src="js/functions.js"></script>
+  <!-- Google map -->
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/mapmarker.jquery.js"></script>
+  <script src="js/mapmarker_func.jquery.js"></script>
+</body>
+
 </html>
