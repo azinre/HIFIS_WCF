@@ -197,4 +197,17 @@
   // Formatear la fecha como "DD/MM/AAAA"
   var fechaFormateada = nombreMes + " " + dia + "th";
   document.getElementById("lbldate").textContent = fechaFormateada;
+  document.getElementById("lbldate2").textContent = fechaFormateada;
+  document.getElementById("SurveyButton").style.display = "none";
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // Obtén una referencia al botón forward
+    var forwardButton2 = document.querySelector(".StartSurvey");
+
+    // Escucha el evento de clic en el botón forward
+    forwardButton2.addEventListener("click", function () {
+      // Simula un clic en el botón StartSurvey cuando se hace clic en el botón forward
+      document.getElementById("SurveyButton").click();
+    });
+  });
 })(window.jQuery); // JavaScript Document

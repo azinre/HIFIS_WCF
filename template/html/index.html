@@ -1,500 +1,3081 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="QUOTE - Request a quote for every type of companies"
+    />
+    <meta name="author" content="Ansonika" />
+    <title>OTTAWA CITY - SURVEY /......</title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="QUOTE - Request a quote for every type of companies" />
-  <meta name="author" content="Ansonika" />
-  <title>OTTAWA CITY - SURVEY /......</title>
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-  <!-- Favicons-->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- GOOGLE WEB FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- GOOGLE WEB FONT -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
-    rel="stylesheet" />
+    <!-- BASE CSS -->
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet" />
+    <link href="css/magnific-popup.min.css" rel="stylesheet" />
+    <link href="css/skins/square/yellow.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/dcae34017c.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- BASE CSS -->
-  <link href="css/animate.min.css" rel="stylesheet" />
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
-  <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet" />
-  <link href="css/magnific-popup.min.css" rel="stylesheet" />
-  <link href="css/skins/square/yellow.css" rel="stylesheet" />
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
 
-  <!-- YOUR CUSTOM CSS -->
-  <link href="css/custom.css" rel="stylesheet" />
-</head>
+  <body style="background-color: #f9f9f9">
+    <div id="loader_form">
+      <div data-loader="circle-side-2"></div>
+    </div>
+    <!-- /Loader_form -->
 
-<body style="background-color: #f9f9f9">
-  <div id="loader_form">
-    <div data-loader="circle-side-2"></div>
-  </div>
-  <!-- /Loader_form -->
-
-  <header>
-    <div class="navbar">
-      <div class=" textNav">
-        Français
-        <hr class="vertical-hr" />
-        Demo Organization
-        <hr class="vertical-hr" />
-        Admin
+    <header>
+      <div class="navbar">
+        <div class="textNav spaceText">
+          Français
+          <hr class="vertical-hr" />
+          Demo Organization
+          <hr class="vertical-hr" />
+          Admin
+        </div>
       </div>
-    </div>
-    <div class="blanco"></div>
-    <div class="logo">
-      <span class="bannerTitle">HIFIS</span>
-      <img class="logoCasa" src="img/logoCasa.png" alt="logoCasa" />
-      <p class="bannerTextSec">
-        HOMELESS INDIVIDUALS AND<br />FAMILIES INFORMATION SYSTEM
-      </p>
-    </div>
-    <div class="secondMenu">
-      <div class="textNav">
-        <hr class="vertical-hr2" />
-        PIT Count
-        <hr class="vertical-hr2" />
+
+      <div class="blanco"></div>
+      <div class="logo">
+        <span class="bannerTitle">HIFIS</span>
+        <img class="logoCasa" src="img/logoCasa.png" alt="logoCasa" />
+        <p class="bannerTextSec">
+          HOMELESS INDIVIDUALS AND<br />FAMILIES INFORMATION SYSTEM
+        </p>
+
+        <div class="divSearch">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="client Search"
+            />
+            <div class="input-group-text buttonform">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <a id="menu-button-mobile" class="cmn-toggle-switch cmn-toggle-switch__htx" href="javascript:void(0);"><span>Menu
+      <div class="secondMenu">
+        <div class="textNav">
+          <hr class="vertical-hr2" />
+          <a href="index.html">PIT Count</a>
+          <hr class="vertical-hr2" />
+        </div>
+      </div>
+      <!-- <a id="menu-button-mobile" class="cmn-toggle-switch cmn-toggle-switch__htx" href="javascript:void(0);"><span>Menu
         mobile</span></a>
     <nav class="main_nav">
       <ul class="nav nav-tabs">
         <li><a href="#tab_1" data-bs-toggle="tab">Start Survey</a></li>
       </ul>
-    </nav>
-  </header>
-  <!-- /header -->
-  <!-- MAIN PAGE BEFORE TO LOAD THE SURVEY -->
-  <div class="container mainIndex">
-    <div id="middle-wizard">
-      <div class="step">
-        <h2 class="main_question">Volunteer Information</h2>
-                <!-- <h3 class="main_question">Volunteer Information</h3> -->
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="form-group">
-              <label for="firstname">First name:</label>
-              <input type="text" id="firstname" name="firstname" class="required form-control">
+    </nav> -->
+    </header>
+    <!-- /header -->
+    <!-- MAIN PAGE BEFORE TO LOAD THE SURVEY -->
+    <div class="container mainIndex">
+      <div id="middle-wizard">
+        <div class="step">
+          <h2 class="main_question">Volunteer Information</h2>
+          <!-- <h3 class="main_question">Volunteer Information</h3> -->
+          <hr class="hrTitle" />
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="firstname">First name:</label>
+                <input
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                  class="required form-control"
+                />
+              </div>
             </div>
-          </div><!-- /col-sm-6 -->
-          <div class="col-sm-6">
-            <div class="form-group">
-              <label for="location">Location:</label>
-              <input type="text" id="location" name="location" class="form-control">
+            <!-- /col-sm-6 -->
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="location">Location:</label>
+                <input
+                  type="text"
+                  id="location"
+                  name="location"
+                  class="form-control"
+                />
+              </div>
             </div>
-          </div><!-- /col-sm-6 -->
-        </div><!-- /row -->
+            <!-- /col-sm-6 -->
+          </div>
+          <!-- /row -->
 
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="form-group">
-              <label for="email">Your Email:</label>
-              <input type="email" id="email" name="email" class="required form-control">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="required form-control"
+                />
+              </div>
             </div>
-          </div> <!-- /col-sm-6 -->
-          <div class="col-sm-6">
-            <div class="form-group">
-              <label for="telephone">Your Telephone:</label>
-              <input type="text" id="telephone" name="telephone" class="required form-control">
+            <!-- /col-sm-6 -->
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="telephone">Your Telephone:</label>
+                <input
+                  type="text"
+                  id="telephone"
+                  name="telephone"
+                  class="required form-control"
+                />
+              </div>
             </div>
-          </div> <!-- /col-sm-6 -->
-        </div><!-- /row -->
-        <!-- Survey Introduction -->
-        <p class="survey-intro">I am a surveyor for the Ottawa's Point in Time Count. We are conducting a survey to
-          helps us provide better programs and services to individuals and families who are experiencing homelessness.
-          The survey takes about 10 minutes to complete. </p>
-
-        <!-- Consent and Participation -->
-        <div class="consent">
-          <p>
-          <ul>
-            <li>Participation is voluntary and your name will not be recorded. This is an anonymous survey</li>
-            <li>We will be asking a wide range of questions some of which may be personal to you. You can choose to skip
-              any question or to stop the interview at any time. </li>
-            <li>I will read the consent and will ask you if you agree to participate.</li>
-          </ul>
+            <!-- /col-sm-6 -->
+          </div>
+          <!-- /row -->
+          <!-- Survey Introduction -->
+          <p class="survey-intro">
+            I am a surveyor for the Ottawa's Point in Time Count. We are
+            conducting a survey to helps us provide better programs and services
+            to individuals and families who are experiencing homelessness. The
+            survey takes about 10 minutes to complete.
           </p>
-          <!-- [Continue with the rest of the consent and participation info] -->
-        </div>
 
-        <!-- Agreement Question -->
-        <div class="form-group">
-          <h2 class="main_question">A. Have you answered this survey today or yesterday (<span id="lbldate"></span>)?
-          </h2>
-          <div>
-            <div class="radio">
-              <label>
-                <input type="radio" id="answeredSurveyYes" name="answeredSurvey" value="Yes">
-                Yes
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" id="answeredSurveyNo" name="answeredSurvey" value="No">
-                No
-              </label>
+          <!-- Consent and Participation -->
+          <div class="consent">
+            <ul>
+              <li>
+                Participation is voluntary and your name will not be recorded.
+                This is an anonymous survey
+              </li>
+              <li>
+                We will be asking a wide range of questions some of which may be
+                personal to you. You can choose to skip any question or to stop
+                the interview at any time.
+              </li>
+              <li>
+                I will read the consent and will ask you if you agree to
+                participate.
+              </li>
+            </ul>
+
+            <!-- [Continue with the rest of the consent and participation info] -->
+          </div>
+
+          <!-- Agreement Question -->
+          <div class="form-group">
+            <h2 class="main_question">
+              A. Have you answered this survey today or yesterday (<span
+                id="lbldate"
+              ></span
+              >)?
+            </h2>
+            <div>
+              <div class="form-group radio_questions">
+                <label
+                  >YES
+                  <input
+                    name="question_1"
+                    type="radio"
+                    class="icheck required"
+                  />
+                </label>
+              </div>
+              <div class="form-group radio_questions">
+                <label
+                  >NO
+                  <input
+                    name="question_1"
+                    type="radio"
+                    class="icheck required"
+                  />
+                </label>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="consent-section">
-          <h3>I understand the following, and I agree to be surveyed on the basis that:</h2>
+          <div class="consent-section">
+            <h3 class="main_question">
+              I understand the following, and I agree to be surveyed on the
+              basis that:
+            </h3>
             <ul>
               <li>I am at least 16 yrs. of age.</li>
               <li>I am currently experiencing homelessness.</li>
-              <li>I can refuse to do the survey or can refuse any question, can take a break, or end the survey early
-                without it affecting the services I get now or in the future.</li>
-              <li>My survey information will go into a secure database that can only be accessed by people who have
-                signed
-                a confidentiality form.</li>
-              <li>The purposes of this survey are to help governments and agencies better understand housing needs and
-                homelessness. All the answers will be combined into statistics and used to help governments and agencies
-                plan services and housing. The results of the survey will be made public.</li>
-              <li>I will be asked questions about my age, gender, sexual orientation, family status and history,
-                language,
-                housing history including in institutions, citizenship, race, Indigenous status, military service,
-                health
-                challenges and income. I will also be asked about my needs and desires for housing and services, and
-                obstacles I face. None of this information can be traced to me – everyone’s answers will be pooled.</li>
-              <li>If I tell you that I'm going to harm myself or someone else, I understand that you will have to
-                disclose
-                this information to authorities.</li>
+              <li>
+                I can refuse to do the survey or can refuse any question, can
+                take a break, or end the survey early without it affecting the
+                services I get now or in the future.
+              </li>
+              <li>
+                My survey information will go into a secure database that can
+                only be accessed by people who have signed a confidentiality
+                form.
+              </li>
+              <li>
+                The purposes of this survey are to help governments and agencies
+                better understand housing needs and homelessness. All the
+                answers will be combined into statistics and used to help
+                governments and agencies plan services and housing. The results
+                of the survey will be made public.
+              </li>
+              <li>
+                I will be asked questions about my age, gender, sexual
+                orientation, family status and history, language, housing
+                history including in institutions, citizenship, race, Indigenous
+                status, military service, health challenges and income. I will
+                also be asked about my needs and desires for housing and
+                services, and obstacles I face. None of this information can be
+                traced to me – everyone’s answers will be pooled.
+              </li>
+              <li>
+                If I tell you that I'm going to harm myself or someone else, I
+                understand that you will have to disclose this information to
+                authorities.
+              </li>
             </ul>
 
             <div class="agreement-section">
               <h2 class="main_question">B. Consent Agreement</h2>
-              <p class="agreement-text">Do you agree that the survey consent has been read to you, that you fully
-                understand the information provided in it, and that you are voluntarily participating?</p>
+              <p class="agreement-text">
+                Do you agree that the survey consent has been read to you, that
+                you fully understand the information provided in it, and that
+                you are voluntarily participating?
+              </p>
               <div class="form-group options">
-                <div class="radio-option">
-                  <input type="radio" id="consentAgreementYes" name="consentAgreement" value="Yes"
-                    class="form-control-radio">
-                  <label for="consentAgreementYes">Yes</label>
-                </div>
-                <div class="radio-option">
-                  <input type="radio" id="consentAgreementNo" name="consentAgreement" value="No"
-                    class="form-control-radio">
-                  <label for="consentAgreementNo">No</label>
+                <div>
+                  <div class="form-group radio_questions">
+                    <label
+                      >YES
+                      <input
+                        name="question_12"
+                        type="radio"
+                        class="icheck required"
+                      />
+                    </label>
+                  </div>
+                  <div class="form-group radio_questions">
+                    <label
+                      >NO
+                      <input
+                        name="question_12"
+                        type="radio"
+                        class="icheck required"
+                      />
+                    </label>
+                  </div>
                 </div>
               </div>
               <div class="form-group initials-group">
-                <label for="surveyorInitials" class="initials-label">Initials of Surveyor:</label>
-                <input type="text" id="surveyorInitials" name="surveyorInitials" class="form-control initials-input">
+                <label for="surveyorInitials" class="initials-label"
+                  >Initials of Surveyor:</label
+                >
+                <input
+                  type="text"
+                  id="surveyorInitials"
+                  name="surveyorInitials"
+                  class="form-control initials-input"
+                />
               </div>
             </div>
-            <p>Thank you for agreeing to take part in the survey. Do you have any questions?</p>
-            <p>Please note that you will receive a $10 gift card as a thank you for your participation.</p>
-<button class="btn btn_primary">Start</button>
-
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-
-  <div class="footer2">
-    <div class="footerTitle"><span class="footerTitle2">About</span>
-      <div class="footerInfo">
-        <ul>
-          <li>Reaching Home</li>
-          <li>HIFIS</li>
-          <li>Release Notes</li>
-          <li>Contact</li>
-        </ul>
-      </div>
-    </div>
-        <div class="footerTitle"><span class="footerTitle2">Terms of Service</span>
-      <div class="footerInfo">
-        <ul>
-          <li>End-User Licence Agreement (EULA)</li>
-          <li>Data Provision Agreement (DPA)</li>
-        </ul>
-      </div>
-    </div>
-        <div class="footerTitle"><span class="footerTitle2">Support</span>
-      <div class="footerInfo">
-        <ul>
-          <li>Homelessness Learning Hub</li>
-          <li>HIFIS User Guide</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="footer3">
-    <div class="footer3Text">Active - Production</div>
-    <div class="footer3Text">Build 4.0.60.1 (2023-10-30)</div>
-  </div>
-  <!-- END MAIN PAGE -->
-  <div class="layer"></div>
-  <!-- /mask -->
-
-  <div id="main_container">
-    <div id="header_in">
-      <a href="#0" class="close_in"><i class="pe-7s-close-circle"></i></a>
-    </div>
-
-    <div class="wrapper_in">
-      <div class="container-fluid">
-        <div class="tab-content">
-          <div class="tab-pane fade" id="tab_1">
-            <div class="subheader" id="quote"></div>
-            <div class="row">
-              <aside class="col-xl-3 col-lg-4">
-                <h2>THE CITY OF OTTAWA 2023</h2>
-                <p class="lead">
-                  Have you answered this survey today or yesterday (<span id="lbldate"></span>).
-                </p>
-                <ul class="list_ok">
-                  <li>
-                    Participation is voluntary and your name will not be
-                    recorded. This is an anonymous survey.
-                  </li>
-                  <li>
-                    We will be asking a wide range of questions some of which
-                    may be personal to you. You can choose to skip any
-                    question or to stop the interview at any time.
-                  </li>
-                  <li>
-                    I will read the consent and will ask you if you agree to
-                    participate.
-                  </li>
-                </ul>
-              </aside>
-              <!-- /aside -->
-
-              <div class="col-xl-9 col-lg-8">
-                <div id="wizard_container">
-                  <div id="top-wizard">
-                    <strong>Survey Progress</strong>
-                    <div id="progressbar"></div>
-                  </div>
-                  <!-- /top-wizard -->
-
-                  <form name="example-1" id="wrapped" method="POST">
-                    <input id="website" name="website" type="text"
-                      value="" /><!-- Leave for security protection, read docs for details -->
-                    <div id="middle-wizard">
-                      <div class="step">
-                        <h3 class="main_question">
-                          <strong>9/10</strong>Please answer the following
-                          questions:
-                        </h3>
-
-                        <div class="row">
-                          <div class="col-lg-10">
-                            <div class="form-group select">
-                              <label>If you already have an hosting plan, please
-                                define:</label>
-                              <div class="styled-select">
-                                <select class="required" name="select_1">
-                                  <option value="" selected>Select</option>
-                                  <option value="Unix/Linux + Mysql">
-                                    Unix/Linux + Mysql
-                                  </option>
-                                  <option value="Windows + Sql">
-                                    Windows + Sql
-                                  </option>
-                                  <option value="Other">Other</option>
-                                </select>
-                              </div>
-                            </div>
-                            <!-- /select-->
-
-                            <div class="form-group select">
-                              <label>If you need an hosting plan, please define
-                                which one:</label>
-                              <div class="styled-select">
-                                <select class="required" name="select_2">
-                                  <option value="" selected>Select</option>
-                                  <option value="Hosting Plan 1 year + Mysql database 500MB">
-                                    1 year + Mysql database 500MB
-                                  </option>
-                                  <option value="Hosting Plan 2 year + Mysql database 500MB">
-                                    2 year + Mysql database 500MB
-                                  </option>
-                                  <option value="Hosting Plan 2 year + Mysql database 1GB">
-                                    2 year + Mysql database 1GB
-                                  </option>
-                                </select>
-                              </div>
-                            </div>
-                            <!-- /select-->
-
-                            <div class="form-group select">
-                              <label>If you need a newsletter campaign, please
-                                define the provider you prefer:</label>
-                              <div class="styled-select">
-                                <select class="required" name="select_3">
-                                  <option value="" selected>Select</option>
-                                  <option value="Mailchimp">Mailchimp</option>
-                                  <option value="CampaignMonitor">
-                                    CampaignMonitor
-                                  </option>
-                                  <option value="MailUp">MailUp</option>
-                                </select>
-                              </div>
-                            </div>
-                            <!-- /select-->
-                          </div>
-                        </div>
-                        <!-- /row-->
-                      </div>
-                      <!-- /step 3-->
-
-                      <div class="submit step">
-                        <h3 class="main_question">
-                          <strong>10/10</strong>Please fill with your details
-                        </h3>
-
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="form-group">
-                              <input type="text" name="company_name" class="form-control"
-                                placeholder="Your company name" />
-                            </div>
-                            <div class="form-group">
-                              <input type="text" name="firstname" class="required form-control"
-                                placeholder="First name" />
-                            </div>
-                            <div class="form-group">
-                              <input type="text" name="lastname" class="required form-control"
-                                placeholder="Last name" />
-                            </div>
-                          </div>
-                          <!-- /col-sm-6 -->
-
-                          <div class="col-sm-6">
-                            <div class="form-group">
-                              <input type="email" name="email" class="required form-control" placeholder="Your Email" />
-                            </div>
-                            <div class="form-group">
-                              <input type="text" name="telephone" class="required form-control"
-                                placeholder="Your Telephone" />
-                            </div>
-                            <div class="form-group">
-                              <div class="styled-select">
-                                <select class="required" name="country">
-                                  <option value="" selected>
-                                    Select your country
-                                  </option>
-                                  <option value="Europe">Europe</option>
-                                  <option value="Asia">Asia</option>
-                                  <option value="North America">
-                                    North America
-                                  </option>
-                                  <option value="South America">
-                                    South America
-                                  </option>
-                                </select>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- /col-sm-6 -->
-                        </div>
-                        <!-- /row -->
-
-                        <div class="form-group checkbox_questions">
-                          <input name="terms" type="checkbox" class="icheck required" value="yes" />
-                          <label>Please accept
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#terms-txt">terms and conditions</a>
-                            ?
-                          </label>
-                        </div>
-                      </div>
-                      <!-- /step 4-->
-                    </div>
-                    <!-- /middle-wizard -->
-                    <div id="bottom-wizard">
-                      <button type="button" name="backward" class="backward">
-                        Backward
-                      </button>
-                      <button type="button" name="forward" class="forward">
-                        Forward
-                      </button>
-                      <button type="submit" name="forward" class="submit">
-                        End Survey
-                      </button>
-                      <button type="submit" name="process" class="submit">
-                        Submit
-                      </button>
-                    </div>
-                    <!-- /bottom-wizard -->
-                  </form>
-                </div>
-                <!-- /Wizard container -->
-              </div>
-              <!-- /col -->
+            <p>
+              Thank you for agreeing to take part in the survey. Do you have any
+              questions?
+            </p>
+            <p>
+              Please note that you will receive a $10 gift card as a thank you
+              for your participation.
+            </p>
+            <div class="main_nav" style="display: none">
+              <ul class="nav nav-tabs">
+                <li>
+                  <a
+                    href="#tab_1"
+                    data-bs-toggle="tab"
+                    class="btn btn-primary"
+                    id="SurveyButton"
+                    >Start Survey</a
+                  >
+                </li>
+              </ul>
             </div>
-            <!-- /row -->
+            <div class="StartSurveyMain">
+              <button class="btn btn-primary StartSurvey" id="StartSurvey">
+                Start <i class="fa-regular fa-circle-play"></i>
+              </button>
+            </div>
           </div>
-          <!-- /TAB 1:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
-        </div>
-        <!-- /tab content -->
-      </div>
-      <!-- /container-fluid -->
-    </div>
-    <!-- /wrapper_in -->
-  </div>
-  <!-- /main_container -->
-
-  <!-- Modal terms -->
-  <div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Terms and conditions</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>
-            Lorem ipsum dolor sit amet, in porro albucius qui, in
-            <strong>nec quod novum accumsan</strong>, mei ludus tamquam
-            dolores id. No sit debitis meliore postulant, per ex prompta
-            alterum sanctus, pro ne quod dicunt sensibus.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod
-            novum accumsan, mei ludus tamquam dolores id. No sit debitis
-            meliore postulant, per ex prompta alterum sanctus, pro ne quod
-            dicunt sensibus. Lorem ipsum dolor sit amet,
-            <strong>in porro albucius qui</strong>, in nec quod novum
-            accumsan, mei ludus tamquam dolores id. No sit debitis meliore
-            postulant, per ex prompta alterum sanctus, pro ne quod dicunt
-            sensibus.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod
-            novum accumsan, mei ludus tamquam dolores id. No sit debitis
-            meliore postulant, per ex prompta alterum sanctus, pro ne quod
-            dicunt sensibus.
-          </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn_1" data-bs-dismiss="modal">
-            Close
-          </button>
         </div>
       </div>
-      <!-- /.modal-content -->
     </div>
-    <!-- /.modal-dialog -->
-  </div>
-  <!-- /.modal -->
 
-  <!-- SCRIPTS -->
-  <!-- Jquery-->
-  <script src="js/jquery-3.7.1.min.js"></script>
-  <!-- Common script -->
-  <script src="js/common_scripts_min.js"></script>
-  <!-- Theme script -->
-  <script src="js/functions.js"></script>
-  <!-- Google map -->
-  <script src="http://maps.googleapis.com/maps/api/js"></script>
-  <script src="js/mapmarker.jquery.js"></script>
-  <script src="js/mapmarker_func.jquery.js"></script>
-</body>
+    <div class="footer2">
+      <div class="container footerFlex">
+        <div class="footerTitle">
+          <span class="footerTitle2">About</span>
+          <div class="footerInfo">
+            <ul>
+              <li>Reaching Home</li>
+              <li>HIFIS</li>
+              <li>Release Notes</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footerTitle">
+          <span class="footerTitle2">Terms of Service</span>
+          <div class="footerInfo">
+            <ul>
+              <li>End-User Licence Agreement (EULA)</li>
+              <li>Data Provision Agreement (DPA)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footerTitle">
+          <span class="footerTitle2">Support</span>
+          <div class="footerInfo">
+            <ul>
+              <li>Homelessness Learning Hub</li>
+              <li>HIFIS User Guide</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer3">
+      <div class="container footerFlex">
+        <div class="footer3Text">Active - Production</div>
+        <div class="footer3Text">Build 4.0.60.1 (2023-10-30)</div>
+      </div>
+    </div>
+    <!-- END MAIN PAGE -->
+    <div class="layer"></div>
+    <!-- /mask -->
 
+    <div id="main_container">
+      <div id="header_in">
+        <a href="#0" class="close_in"><i class="pe-7s-close-circle"></i></a>
+      </div>
+
+      <div class="wrapper_in">
+        <div class="container-fluid">
+          <div class="tab-content">
+            <div class="tab-pane fade" id="tab_1">
+              <div class="subheader" id="quote"></div>
+              <div class="row">
+                <aside class="col-xl-3 col-lg-4">
+                  <h2>THE CITY OF OTTAWA 2023</h2>
+                  <p class="lead">
+                    Have you answered this survey today or yesterday (<span
+                      id="lbldate2"
+                    ></span
+                    >).
+                  </p>
+                  <ul class="list_ok">
+                    <li>
+                      Participation is voluntary and your name will not be
+                      recorded. This is an anonymous survey.
+                    </li>
+                    <li>
+                      We will be asking a wide range of questions some of which
+                      may be personal to you. You can choose to skip any
+                      question or to stop the interview at any time.
+                    </li>
+                    <li>
+                      I will read the consent and will ask you if you agree to
+                      participate.
+                    </li>
+                  </ul>
+                </aside>
+                <!-- /aside -->
+
+                <div class="col-xl-9 col-lg-8">
+                  <div id="wizard_container">
+                    <div id="top-wizard">
+                      <strong>Survey Progress</strong>
+                      <div id="progressbar"></div>
+                    </div>
+                    <!-- /top-wizard -->
+
+                    <form name="example-1" id="wrapped" method="POST">
+                      <input
+                        id="website"
+                        name="website"
+                        type="text"
+                        value=""
+                      /><!-- Leave for security protection, read docs for details -->
+                      <div id="middle-wizard">
+                        <!-- ALL QUESTIONS HERE -->
+
+                        <!-- QUESTION 1 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 1/20</strong>
+                          </h3>
+                          <h3 class="main_question">
+                            1. Do you have family members or anyone else who is
+                            staying with you tonight? / Did you have any family
+                            members or anyone else who stayed with you last
+                            night?
+                          </h3>
+
+                          <div class="row add_bottom_30">
+                            <div class="col-sm-6">
+                              <div class="form-group checkbox_questions">
+                                <label>
+                                  <input
+                                    name="question_2[]"
+                                    type="checkbox"
+                                    value="Custom interface and layout"
+                                    class="icheck required"
+                                  />NONE
+                                </label>
+                              </div>
+                              <div class="form-group checkbox_questions">
+                                <label>
+                                  <input
+                                    name="question_2[]"
+                                    type="checkbox"
+                                    value="Web site design"
+                                    class="icheck required"
+                                  />PARTNER
+                                </label>
+                              </div>
+                              <div class="form-group checkbox_questions">
+                                <label>
+                                  <input
+                                    name="question_2[]"
+                                    type="checkbox"
+                                    value="Seo optimization"
+                                    class="icheck required"
+                                  />OTHER ADULT(S) (Can include other family or
+                                  friends)
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                              <div class="form-group checkbox_questions">
+                                <label>
+                                  <input
+                                    name="question_2[]"
+                                    type="checkbox"
+                                    value="CMS integrations (Wordpress)"
+                                    class="icheck required"
+                                  />DECLINE TO ANSWER
+                                </label>
+                              </div>
+                              <div class="form-group checkbox_questions">
+                                <label>
+                                  <input
+                                    name="question_2[]"
+                                    type="checkbox"
+                                    value="Domain registration"
+                                    class="icheck required"
+                                  />CHILD(REN)/DEPENDENT(S)
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- /row-->
+                          <div class="form-group textarea_info">
+                            <label>Additional info</label>
+                            <textarea
+                              name="addtional_info"
+                              class="form-control"
+                              style="height: 150px"
+                              placeholder="indicate gender and age for each"
+                            ></textarea>
+                          </div>
+                        </div>
+                        <!-- QUESTION 1 -->
+
+                        <!-- QUESTION 2 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question /20</strong>
+                          </h3>
+                          <h3 class="main_question">Current Accommodation</h3>
+                          <h3>
+                            Where are you staying tonight? / Where did you stay
+                            last night (if surveyed on October 27th)?
+                          </h3>
+                          <div class="form-group select">
+                            <label
+                              for="current_accommodation"
+                              class="select-label"
+                              >Select your current accommodation:</label
+                            >
+                            <div class="styled-select">
+                              <select
+                                id="current_accommodation"
+                                name="current_accommodation"
+                                class="required"
+                                onchange="checkAccommodation(this);"
+                              >
+                                <option value="" selected>Select</option>
+                                <option value="Decline to Answer">
+                                  Decline to Answer
+                                </option>
+                                <option value="Own Apartment / House">
+                                  Own Apartment / House
+                                </option>
+                                <option value="Someone Else’s Place">
+                                  Someone Else’s Place
+                                </option>
+                                <option value="Motel/Hotel (Self-Funded)">
+                                  Motel/Hotel (Self-Funded)
+                                </option>
+                                <option value="Hospital">Hospital</option>
+                                <option value="Treatment Centre">
+                                  Treatment Centre
+                                </option>
+                                <option value="Jail, Prison, Remand Centre">
+                                  Jail, Prison, Remand Centre
+                                </option>
+                                <option value="Homeless Shelter">
+                                  Homeless Shelter (Emergency, Family, or
+                                  Domestic Violence Shelter)
+                                </option>
+                                <option
+                                  value="Hotel/Motel (Funded by City or Homeless Program)"
+                                >
+                                  Hotel/Motel (Funded by City or Homeless
+                                  Program)
+                                </option>
+                                <option value="Transitional Shelter/Housing">
+                                  Transitional Shelter/Housing
+                                </option>
+                                <option value="Unsheltered in a Public Space">
+                                  Unsheltered in a Public Space (e.g., Street,
+                                  Park, Bus Shelter)
+                                </option>
+                                <option value="Encampment">
+                                  Encampment (e.g., Group of Tents, Makeshift
+                                  Shelters)
+                                </option>
+                                <option value="Vehicle">
+                                  Vehicle (Car, Van, RV, Truck, Boat)
+                                </option>
+                                <option value="Unsure">
+                                  Unsure - Indicate Probable Location Below
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                          <div
+                            id="unsure-location"
+                            class="form-group"
+                            style="display: none"
+                          >
+                            <label for="probable_location"
+                              >If unsure, indicate probable location:</label
+                            >
+                            <input
+                              type="text"
+                              id="probable_location"
+                              name="probable_location"
+                              class="form-control"
+                              placeholder="Enter location"
+                            />
+                          </div>
+                          <div class="form-group">
+                            <h3>
+                              Do you have access to a permanent residence where
+                              you can safely stay as long as you want?
+                            </h3>
+                            <div class="form-group radio-group">
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="permanent_residence"
+                                  value="Yes"
+                                />
+                                Yes
+                              </label>
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="permanent_residence"
+                                  value="No"
+                                />
+                                No
+                              </label>
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="permanent_residence"
+                                  value="Dont Know"
+                                />
+                                Don't Know
+                              </label>
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="permanent_residence"
+                                  value="Decline to Answer"
+                                />
+                                Decline to Answer
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- QUESTION 2 -->
+
+                        <!-- QUESTION 3 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 3/20</strong>
+                          </h3>
+                          <h3 class="main_question">
+                            How old are you? [OR] What year were you born? [If
+                            unsure, ask for best estimate]
+                          </h3>
+
+                          <div class="form-group">
+                            <label for="age">AGE:</label>
+                            <input
+                              type="number"
+                              id="age"
+                              name="age"
+                              class="form-control"
+                              placeholder="Enter age"
+                              style="max-width: 200px"
+                            />
+                          </div>
+
+                          <div class="form-group">
+                            <label for="year_born">OR YEAR BORN:</label>
+                            <input
+                              type="number"
+                              id="year_born"
+                              name="year_born"
+                              class="form-control"
+                              placeholder="Enter year of birth"
+                              min="1960"
+                              max="2023"
+                              style="max-width: 200px"
+                            />
+                          </div>
+
+                          <div class="form-group checkbox_questions">
+                            <label>
+                              <input
+                                name="age_unknown"
+                                type="checkbox"
+                                value="dont_know"
+                                class="icheck"
+                              />DON’T KNOW
+                            </label>
+                          </div>
+
+                          <div class="form-group checkbox_questions">
+                            <label>
+                              <input
+                                name="age_decline"
+                                type="checkbox"
+                                value="decline_to_answer"
+                                class="icheck"
+                              />DECLINE TO ANSWER
+                            </label>
+                          </div>
+
+                          <p>
+                            For this survey, “homelessness” means any time when
+                            you have been without a permanent and secure place
+                            to live, including sleeping in shelters, on the
+                            streets, or living temporarily with others without
+                            having your own permanent housing (e.g. couch
+                            surfing).
+                          </p>
+                        </div>
+                        <!-- QUESTION 3 -->
+
+                        <!-- QUESTION 4 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 4/20</strong>
+                          </h3>
+                          <div class="form-group">
+                            <label for="first_homeless_age">
+                              <h3>
+                                How old were you the first time you experienced
+                                homelessness?
+                              </h3>
+                            </label>
+                            <input
+                              type="number"
+                              id="first_homeless_age"
+                              name="first_homeless_age"
+                              class="form-control"
+                              placeholder="Enter age"
+                              style="max-width: 200px"
+                            />
+                            <div class="checkbox-group">
+                              <div class="checkbox">
+                                <label>
+                                  <input
+                                    type="checkbox"
+                                    name="first_homeless_unknown"
+                                    value="dont_know"
+                                  />
+                                  DON’T KNOW
+                                </label>
+                              </div>
+                              <div class="checkbox">
+                                <label>
+                                  <input
+                                    type="checkbox"
+                                    name="first_homeless_decline"
+                                    value="decline"
+                                  />
+                                  DECLINE TO ANSWER
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="homelessness_duration">
+                              <h3>
+                                In total, for how much time have you experienced
+                                homelessness over the PAST YEAR?
+                              </h3>
+                            </label>
+                            <div class="row">
+                              <div class="col-2">
+                                <input
+                                  type="text"
+                                  id="homelessness_duration"
+                                  name="homelessness_duration"
+                                  class="form-control"
+                                  placeholder="Enter duration"
+                                  style="max-width: 200px"
+                                />
+                              </div>
+                              <div class="col-3">
+                                <select
+                                  id="duration_unit"
+                                  name="duration_unit"
+                                  class="form-control"
+                                >
+                                  <option value="days">DAYS</option>
+                                  <option value="weeks">WEEKS</option>
+                                  <option value="months">MONTHS</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="checkbox-group">
+                              <div class="checkbox">
+                                <label>
+                                  <input
+                                    type="checkbox"
+                                    name="homelessness_unknown"
+                                    value="dont_know"
+                                  />
+                                  DON’T KNOW
+                                </label>
+                              </div>
+                              <div class="checkbox">
+                                <label>
+                                  <input
+                                    type="checkbox"
+                                    name="homelessness_decline"
+                                    value="decline"
+                                  />
+                                  DECLINE TO ANSWER
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- QUESTION 4 -->
+
+                        <!-- QUESTION 5 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 5/20</strong>
+                          </h3>
+                          <h3 class="main_question">
+                            Have you stayed in a homeless shelter in the past
+                            year?
+                          </h3>
+                          <div class="form-group radio-group">
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="shelter_stay"
+                                value="yes"
+                              />
+                              YES
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="shelter_stay"
+                                value="no"
+                              />
+                              NO
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="shelter_stay"
+                                value="dont_know"
+                              />
+                              DON’T KNOW
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="shelter_stay"
+                                value="decline"
+                              />
+                              DECLINE TO ANSWER
+                            </label>
+                          </div>
+                          <!-- Question 5b -->
+                          <h3 class="main_question">
+                            If not, what are the main reasons?
+                          </h3>
+                          <div class="form-group">
+                            <div class="checkbox-group">
+                              <label class="checkbox-label">
+                                <input
+                                  type="checkbox"
+                                  name="reason_no_shelter"
+                                  value="turned_away_full"
+                                />
+                                TURNED AWAY (SHELTERS ARE FULL)
+                              </label>
+                            </div>
+                            <div class="checkbox-group">
+                              <label class="checkbox-label">
+                                <input
+                                  type="checkbox"
+                                  name="reason_no_shelter"
+                                  value="turned_away_banned"
+                                />
+                                TURNED AWAY (BANNED)
+                              </label>
+                            </div>
+                            <div class="checkbox-group">
+                              <label class="checkbox-label">
+                                <input
+                                  type="checkbox"
+                                  name="reason_no_shelter"
+                                  value="lack_of_transport"
+                                />
+                                LACK OF TRANSPORTATION
+                              </label>
+                            </div>
+                            <div class="checkbox-group">
+                              <label class="checkbox-label">
+                                <input
+                                  type="checkbox"
+                                  name="reason_no_shelter"
+                                  value="fear_for_safety"
+                                />
+                                FEAR FOR SAFETY
+                              </label>
+                            </div>
+                            <div class="checkbox-group">
+                              <label class="checkbox-label">
+                                <input
+                                  type="checkbox"
+                                  name="reason_no_shelter"
+                                  value="bed_bugs"
+                                />
+                                BED BUGS & OTHER PESTS
+                              </label>
+                            </div>
+                            <div class="checkbox-group">
+                              <label class="checkbox-label">
+                                <input
+                                  type="checkbox"
+                                  name="reason_no_shelter"
+                                  value="crowded"
+                                />
+                                CROWDED
+                              </label>
+                            </div>
+                            <div class="checkbox-group">
+                              <label class="checkbox-label">
+                                <input
+                                  type="checkbox"
+                                  name="reason_no_shelter"
+                                  value="other"
+                                />
+                                OTHER:
+                                <input
+                                  type="text"
+                                  name="other_reason"
+                                  class="form-control other-reason-input"
+                                  placeholder="Please specify"
+                                />
+                              </label>
+                            </div>
+                            <div class="checkbox-group">
+                              <label class="checkbox-label">
+                                <input
+                                  type="checkbox"
+                                  name="reason_no_shelter"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW
+                              </label>
+                            </div>
+                            <div class="checkbox-group">
+                              <label class="checkbox-label">
+                                <input
+                                  type="checkbox"
+                                  name="reason_no_shelter"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- QUESTION 5 -->
+
+                        <!-- QUESTION 6 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 6/20</strong>
+                          </h3>
+                          <div>
+                            <h3 class="main_question">
+                              Did you come to Canada as an immigrant, refugee,
+                              or a refugee claimant?
+                            </h3>
+                            <div class="form-group radio-group">
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="status_in_canada"
+                                  value="immigrant"
+                                />
+                                YES, IMMIGRANT</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="status_in_canada"
+                                  value="refugee"
+                                />
+                                YES, REFUGEE</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="status_in_canada"
+                                  value="refugee_claimant"
+                                />
+                                YES, REFUGEE CLAIMANT</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="status_in_canada"
+                                  value="no"
+                                />
+                                NO</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="status_in_canada"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="status_in_canada"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+
+                            <div>
+                              <h3 class="main_question">
+                                If YES, how long have you been in Canada?
+                              </h3>
+                              <div class="form-inline-group">
+                                <div class="form-group">
+                                  <input
+                                    type="text"
+                                    id="duration_in_canada"
+                                    name="duration_in_canada"
+                                    class="form-control"
+                                    placeholder="Length (e.g., 2 YEARS)"
+                                    style="max-width: 200px"
+                                  />
+                                </div>
+                                <div class="form-group">
+                                  <label for="arrival_date">OR DATE:</label>
+                                  <input
+                                    type="date"
+                                    id="arrival_date"
+                                    name="arrival_date"
+                                    class="form-control"
+                                    style="max-width: 200px"
+                                  />
+                                </div>
+                              </div>
+                              <div class="checkbox-group">
+                                <label
+                                  class="checkbox-label"
+                                  style="margin-right: 10px"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    name="length_unknown"
+                                    value="dont_know"
+                                  />
+                                  DON’T KNOW
+                                </label>
+                                <label class="checkbox-label">
+                                  <input
+                                    type="checkbox"
+                                    name="length_decline"
+                                    value="decline"
+                                  />
+                                  DECLINE TO ANSWER
+                                </label>
+                              </div>
+                            </div>
+
+                            <div>
+                              <h3 class="main_question">
+                                Are you a Canadian Citizen?
+                              </h3>
+                              <div class="form-group radio-group">
+                                <label class="radio-label"
+                                  ><input
+                                    type="radio"
+                                    name="citizenship"
+                                    value="yes"
+                                  />
+                                  YES</label
+                                >
+                                <label class="radio-label"
+                                  ><input
+                                    type="radio"
+                                    name="citizenship"
+                                    value="no"
+                                  />
+                                  NO</label
+                                >
+                                <label class="radio-label"
+                                  ><input
+                                    type="radio"
+                                    name="citizenship"
+                                    value="dont_know"
+                                  />
+                                  DON’T KNOW</label
+                                >
+                                <label class="radio-label"
+                                  ><input
+                                    type="radio"
+                                    name="citizenship"
+                                    value="decline"
+                                  />
+                                  DECLINE TO ANSWER</label
+                                >
+                              </div>
+
+                              <div
+                                class="form-group conditional-group"
+                                id="non-citizen-options"
+                              >
+                                <label for="non_citizen_status"
+                                  >If NO, please specify:</label
+                                >
+                                <select
+                                  id="non_citizen_status"
+                                  name="non_citizen_status"
+                                  class="form-control"
+                                  style="max-width: 400px"
+                                >
+                                  <option value="permanent_resident">
+                                    PERMANENT RESIDENT
+                                  </option>
+                                  <option value="refugee_claimant">
+                                    REFUGEE CLAIMANT
+                                  </option>
+                                  <option value="temporary_foreign_worker">
+                                    TEMPORARY FOREIGN WORKER
+                                  </option>
+                                  <option value="international_student">
+                                    INTERNATIONAL STUDENT
+                                  </option>
+                                  <option value="other">
+                                    OTHER (PLEASE SPECIFY)
+                                  </option>
+                                </select>
+                                <input
+                                  type="text"
+                                  name="other_status"
+                                  class="form-control"
+                                  placeholder="Please specify"
+                                  style="max-width: 200px; display: none"
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <script>
+                            document
+                              .getElementById("non_citizen_status")
+                              .addEventListener("change", function () {
+                                var otherInput =
+                                  document.getElementsByName("other_status")[0];
+                                if (this.value === "other") {
+                                  otherInput.style.display = "block";
+                                } else {
+                                  otherInput.style.display = "none";
+                                }
+                              });
+                          </script>
+                        </div>
+                        <!-- QUESTION 6 -->
+
+                        <!-- QUESTION 7 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 7/20</strong>
+                          </h3>
+                          <!-- Question 7a -->
+                          <div class="form-group">
+                            <label for="length_in_ottawa"
+                              >How long have you been in Ottawa?</label
+                            >
+                            <input
+                              type="text"
+                              id="length_in_ottawa"
+                              name="length_in_ottawa"
+                              class="form-control"
+                              placeholder="Length"
+                              style="max-width: 200px"
+                            />
+                            <select
+                              id="duration_unit_ottawa"
+                              name="duration_unit_ottawa"
+                              class="form-control"
+                              style="max-width: 200px"
+                            >
+                              <option value="days">DAYS</option>
+                              <option value="weeks">WEEKS</option>
+                              <option value="months">MONTHS</option>
+                              <option value="years">YEARS</option>
+                            </select>
+                            <div
+                              class="checkbox-group"
+                              style="margin-top: 10px; text-align: left"
+                            >
+                              <label
+                                class="checkbox-label"
+                                style="
+                                  display: inline-block;
+                                  margin-right: 20px;
+                                "
+                              >
+                                <input
+                                  type="checkbox"
+                                  name="always_in_ottawa"
+                                  value="always_here"
+                                />
+                                ALWAYS BEEN HERE
+                              </label>
+                              <label
+                                class="checkbox-label"
+                                style="
+                                  display: inline-block;
+                                  margin-right: 20px;
+                                "
+                              >
+                                <input
+                                  type="checkbox"
+                                  name="unknown_duration_ottawa"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW
+                              </label>
+                              <label
+                                class="checkbox-label"
+                                style="display: inline-block"
+                              >
+                                <input
+                                  type="checkbox"
+                                  name="decline_duration_ottawa"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER
+                              </label>
+                            </div>
+                          </div>
+
+                          <!-- Question 7b -->
+                          <div class="form-group">
+                            <label
+                              >Where did you live before you came here?</label
+                            >
+                            <input
+                              type="text"
+                              name="previous_city"
+                              class="form-control"
+                              placeholder="CITY"
+                              style="max-width: 300px"
+                            />
+                            <input
+                              type="text"
+                              name="previous_region"
+                              class="form-control"
+                              placeholder="PROVINCE/TERRITORY/COUNTRY"
+                              style="max-width: 300px"
+                            />
+                            <div
+                              class="checkbox-group"
+                              style="margin-top: 10px"
+                            >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="decline_previous_location"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+
+                          <!-- Question 7c -->
+                          <div class="form-group">
+                            <label
+                              >What is the main reason you came to
+                              Ottawa?</label
+                            >
+                            <select
+                              id="reason_for_coming"
+                              name="reason_for_coming"
+                              class="form-control"
+                              style="max-width: 400px"
+                            >
+                              <option value="emergency_shelter">
+                                TO ACCESS EMERGENCY SHELTER(S)
+                              </option>
+                              <option value="services_and_supports">
+                                TO ACCESS SERVICES AND SUPPORTS
+                              </option>
+                              <option value="family_moved_here">
+                                FAMILY MOVED HERE
+                              </option>
+                              <option value="visit_friends_family">
+                                TO VISIT FRIENDS/FAMILY
+                              </option>
+                              <option value="find_housing">
+                                TO FIND HOUSING
+                              </option>
+                              <option value="employment_seeking">
+                                EMPLOYMENT (SEEKING)
+                              </option>
+                              <option value="employment_secured">
+                                EMPLOYMENT (SECURED)
+                              </option>
+                              <option value="attend_school">
+                                TO ATTEND SCHOOL
+                              </option>
+                              <option value="fear_for_safety">
+                                FEAR FOR SAFETY
+                              </option>
+                              <option value="recreation_shopping">
+                                RECREATION/SHOPPING
+                              </option>
+                              <option value="other">OTHER</option>
+                            </select>
+                            <input
+                              type="text"
+                              name="other_reason_for_coming"
+                              class="form-control"
+                              placeholder="Please specify"
+                              style="
+                                display: none;
+                                max-width: 300px;
+                                margin-bottom: 10px;
+                              "
+                            />
+                            <div
+                              class="checkbox-group"
+                              style="margin-top: 10px; text-align: left"
+                            >
+                              <label
+                                class="checkbox-label"
+                                style="
+                                  display: inline-block;
+                                  margin-right: 20px;
+                                "
+                              >
+                                <input
+                                  type="checkbox"
+                                  name="unknown_reason_for_coming"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW
+                              </label>
+                              <label
+                                class="checkbox-label"
+                                style="
+                                  display: inline-block;
+                                  margin-right: 20px;
+                                "
+                              >
+                                <input
+                                  type="checkbox"
+                                  name="decline_reason_for_coming"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER
+                              </label>
+                            </div>
+                          </div>
+
+                          <script>
+                            // JavaScript to show/hide the 'other reason' input field based on the selected option
+                            document
+                              .getElementById("reason_for_coming")
+                              .addEventListener("change", function () {
+                                var otherInput = document.getElementsByName(
+                                  "other_reason_for_coming"
+                                )[0];
+                                if (this.value === "other") {
+                                  otherInput.style.display = "block";
+                                } else {
+                                  otherInput.style.display = "none";
+                                }
+                              });
+                          </script>
+                        </div>
+                        <!-- QUESTION 7 -->
+
+                        <!-- QUESTION 8 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 8/20</strong>
+                          </h3>
+                          <div class="form-group">
+                            <h3 class="main_question">
+                              Do you identify as First Nations, Inuit, or Métis,
+                              or do you have North American Indigenous ancestry?
+                            </h3>
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="indigenous_identity"
+                                value="first_nations"
+                              />
+                              YES, FIRST NATIONS</label
+                            >
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="indigenous_identity"
+                                value="inuit"
+                              />
+                              YES, INUIT</label
+                            >
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="indigenous_identity"
+                                value="metis"
+                              />
+                              YES, MÉTIS</label
+                            >
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="indigenous_identity"
+                                value="indigenous_ancestry"
+                              />
+                              YES, INDIGENOUS ANCESTRY</label
+                            >
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="indigenous_identity"
+                                value="no"
+                              />
+                              NO</label
+                            >
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="indigenous_identity"
+                                value="dont_know"
+                              />
+                              DON’T KNOW</label
+                            >
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="indigenous_identity"
+                                value="decline"
+                              />
+                              DECLINE TO ANSWER</label
+                            >
+                          </div>
+                          <div class="form-group">
+                            <h3 class="main_question">
+                              In addition to your response in the question
+                              above, do you identify with any of the racial
+                              identities listed below?
+                            </h3>
+                            <div
+                              class="checkbox-group"
+                              style="
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                gap: 10px;
+                              "
+                            >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="arab"
+                                />
+                                ARAB (e.g., Syrian, Egyptian, Yemeni)</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="asian_east"
+                                />
+                                ASIAN-EAST (e.g., Chinese, Korean,
+                                Japanese)</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="asian_southeast"
+                                />
+                                ASIAN- SOUTH-EAST (e.g., Filipino, Vietnamese,
+                                Cambodian)</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="asian_south"
+                                />
+                                ASIAN-SOUTH OR INDO-CARIBBEAN (e.g., Indian,
+                                Pakistani)</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="asian_west"
+                                />
+                                ASIAN-WEST (e.g., Iranian, Afghan)</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="black_canadian_american"
+                                />
+                                BLACK-CANADIAN/AMERICAN</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="black_african"
+                                />
+                                BLACK-AFRICAN (e.g., Ghanaian, Ethiopian)</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="latin_american"
+                                />
+                                LATIN AMERICAN (e.g., Brazilian, Mexican)</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="white"
+                                />
+                                WHITE (e.g. European, French, Ukrainian)</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="black_afro_caribbean"
+                                />
+                                BLACK-AFRO-CARIBBEAN OR AFRO-LATINX (e.g.,
+                                Jamaican, Haitian)</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="other"
+                                />
+                                NOT LISTED (PLEASE SPECIFY):</label
+                              >
+                              <input
+                                type="text"
+                                name="other_racial_identity"
+                                class="form-control"
+                                placeholder="Please specify"
+                                style="
+                                  grid-column: span 2;
+                                  max-width: 300px;
+                                  margin-top: 10px;
+                                "
+                              />
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="indigenous_only"
+                                />
+                                IDENTIFY AS INDIGENOUS ONLY</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label class="checkbox-label"
+                                ><input
+                                  type="checkbox"
+                                  name="racial_identity"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <h3 class="main_question">
+                              If you do identify as Indigenous, which Indigenous
+                              community are you from?
+                            </h3>
+                            <input
+                              type="text"
+                              name="indigenous_community"
+                              class="form-control"
+                              placeholder="Community / Reserve Name"
+                            />
+                            <div
+                              class="checkbox-group"
+                              style="margin-top: 10px; text-align: left"
+                            >
+                              <label
+                                class="checkbox-label"
+                                style="
+                                  display: inline-block;
+                                  margin-right: 20px;
+                                "
+                                ><input
+                                  type="checkbox"
+                                  name="community_unknown"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="
+                                  display: inline-block;
+                                  margin-right: 20px;
+                                "
+                                ><input
+                                  type="checkbox"
+                                  name="community_decline"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <!-- QUESTION 8 -->
+
+                        <!-- QUESTION 9 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 9/20</strong>
+                          </h3>
+                          <div class="form-group">
+                            <h3 class="main_question">
+                              Have you ever served in the Canadian Military or
+                              RCMP?
+                            </h3>
+                            <div class="radio-group">
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="military_service"
+                                  value="military"
+                                />
+                                YES, MILITARY
+                              </label>
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="military_service"
+                                  value="rcmp"
+                                />
+                                YES, RCMP
+                              </label>
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="military_service"
+                                  value="both"
+                                />
+                                BOTH MILITARY AND RCMP
+                              </label>
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="military_service"
+                                  value="no"
+                                />
+                                NO
+                              </label>
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="military_service"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW
+                              </label>
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="military_service"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- QUESTION 9 -->
+
+                        <!-- QUESTION 10 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 10/20</strong>
+                          </h3>
+                          <h3 class="main_question">
+                            As a child or youth, were you ever in foster care or
+                            in a youth group home?
+                          </h3>
+                          <div class="form-group radio-group">
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="foster_care_experience"
+                                value="yes"
+                              />
+                              YES
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="foster_care_experience"
+                                value="no"
+                              />
+                              NO
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="foster_care_experience"
+                                value="dont_know"
+                              />
+                              DON’T KNOW
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="foster_care_experience"
+                                value="decline"
+                              />
+                              DECLINE TO ANSWER
+                            </label>
+                          </div>
+                          <div class="form-group">
+                            <h3 class="main_question">
+                              Approximately how long after leaving foster
+                              care/group home did you become homeless?
+                            </h3>
+                            <input
+                              type="text"
+                              name="time_after_foster_homelessness"
+                              class="form-control"
+                              placeholder="Enter duration"
+                              style="max-width: 200px"
+                            />
+                            <div
+                              class="checkbox-group"
+                              style="margin-top: 10px; text-align: left"
+                            >
+                              <label
+                                class="checkbox-label"
+                                style="
+                                  display: inline-block;
+                                  margin-right: 20px;
+                                "
+                                ><input
+                                  type="checkbox"
+                                  name="unknown_time_after_foster"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="
+                                  display: inline-block;
+                                  margin-right: 20px;
+                                "
+                                ><input
+                                  type="checkbox"
+                                  name="decline_time_after_foster"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <!-- QUESTION 10 -->
+
+                        <!-- QUESTION 11 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 11/20</strong>
+                          </h3>
+                          <h4 class="main_question">
+                            Do you identify as having any of the following
+                            health challenges at this time:
+                          </h4>
+
+                          <!-- Illness or Medical Condition -->
+                          <div class="form-group">
+                            <p>
+                              ILLNESS OR MEDICAL CONDITION (e.g., diabetes,
+                              arthritis, TB, HIV)
+                            </p>
+                            <div class="radio-group">
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="illness_condition"
+                                  value="yes"
+                                />
+                                YES</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="illness_condition"
+                                  value="no"
+                                />
+                                NO</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="illness_condition"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="illness_condition"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+
+                          <!-- Physical Limitation -->
+                          <div class="form-group">
+                            <p>
+                              PHYSICAL LIMITATION (e.g., challenges with
+                              mobility, physical abilities or dexterity)
+                            </p>
+                            <div class="radio-group">
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="physical_limitation"
+                                  value="yes"
+                                />
+                                YES</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="physical_limitation"
+                                  value="no"
+                                />
+                                NO</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="physical_limitation"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="physical_limitation"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+
+                          <!-- Learning or Cognitive Limitations -->
+                          <div class="form-group">
+                            <p>
+                              LEARNING OR COGNITIVE LIMITATIONS (e.g., dyslexia,
+                              autism spectrum disorder)
+                            </p>
+                            <div class="radio-group">
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="learning_cognitive_limitations"
+                                  value="yes"
+                                />
+                                YES</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="learning_cognitive_limitations"
+                                  value="no"
+                                />
+                                NO</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="learning_cognitive_limitations"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="learning_cognitive_limitations"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+
+                          <!-- Mental Health Issue -->
+                          <div class="form-group">
+                            <p>
+                              MENTAL HEALTH ISSUE (diagnosed/undiagnosed) (e.g.,
+                              depression, PTSD, bipolar disorder)
+                            </p>
+                            <div class="radio-group">
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="mental_health_issue"
+                                  value="yes"
+                                />
+                                YES</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="mental_health_issue"
+                                  value="no"
+                                />
+                                NO</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="mental_health_issue"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="mental_health_issue"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+
+                          <!-- Substance Use Issue -->
+                          <div class="form-group">
+                            <p>
+                              SUBSTANCE USE ISSUE (e.g., tobacco use, alcohol,
+                              opiates)
+                            </p>
+                            <div class="radio-group">
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="substance_use_issue"
+                                  value="yes"
+                                />
+                                YES</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="substance_use_issue"
+                                  value="no"
+                                />
+                                NO</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="substance_use_issue"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="substance_use_issue"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+
+                          <!-- Acquired Brain Injury -->
+                          <div class="form-group">
+                            <p>
+                              Do you identify as having an acquired brain injury
+                              that happened after birth?
+                            </p>
+                            <div class="radio-group">
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="brain_injury"
+                                  value="yes"
+                                />
+                                YES</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="brain_injury"
+                                  value="no"
+                                />
+                                NO</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="brain_injury"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label class="radio-label"
+                                ><input
+                                  type="radio"
+                                  name="brain_injury"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <!-- QUESTION 11 -->
+
+                        <!-- QUESTION 12 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 12/20</strong>
+                          </h3>
+                          <h3 class="main_question">
+                            What gender do you identify with?
+                          </h3>
+                          <div class="form-group radio-group">
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="gender_identity"
+                                value="man"
+                              />
+                              MAN
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="gender_identity"
+                                value="woman"
+                              />
+                              WOMAN
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="gender_identity"
+                                value="two_spirit"
+                              />
+                              TWO-SPIRIT
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="gender_identity"
+                                value="trans_woman"
+                              />
+                              TRANS WOMAN
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="gender_identity"
+                                value="trans_man"
+                              />
+                              TRANS MAN
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="gender_identity"
+                                value="non_binary"
+                              />
+                              NON-BINARY (GENDERQUEER)
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="gender_identity"
+                                value="not_listed"
+                              />
+                              NOT LISTED:
+                              <input
+                                type="text"
+                                name="other_gender"
+                                class="form-control inline-input"
+                                placeholder="Please specify"
+                              />
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="gender_identity"
+                                value="dont_know"
+                              />
+                              DON’T KNOW
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="gender_identity"
+                                value="decline"
+                              />
+                              DECLINE TO ANSWER
+                            </label>
+                          </div>
+                        </div>
+                        <!-- QUESTION 12 -->
+
+                        <!-- QUESTION 13 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 13/20</strong>
+                          </h3>
+                          <h3 class="main_question">
+                            How do you describe your sexual orientation, for
+                            example straight, gay, lesbian?
+                          </h3>
+                          <div class="form-group radio-group">
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="sexual_orientation"
+                                value="straight_heterosexual"
+                              />
+                              STRAIGHT/HETEROSEXUAL
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="sexual_orientation"
+                                value="gay"
+                              />
+                              GAY
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="sexual_orientation"
+                                value="lesbian"
+                              />
+                              LESBIAN
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="sexual_orientation"
+                                value="bisexual"
+                              />
+                              BISEXUAL
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="sexual_orientation"
+                                value="two_spirit"
+                              />
+                              TWO-SPIRIT
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="sexual_orientation"
+                                value="pansexual"
+                              />
+                              PANSEXUAL
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="sexual_orientation"
+                                value="asexual"
+                              />
+                              ASEXUAL
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="sexual_orientation"
+                                value="questioning"
+                              />
+                              QUESTIONING
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                type="radio"
+                                name="sexual_orientation"
+                                value="queer"
+                              />
+                              QUEER
+                            </label>
+                            <div>
+                              <label
+                                class="radio-label"
+                                style="margin-top: 20px; text-align: left"
+                              >
+                                <input
+                                  type="radio"
+                                  name="sexual_orientation"
+                                  value="not_listed"
+                                />
+                                NOT LISTED:
+                                <input
+                                  type="text"
+                                  name="other_sexual_orientation"
+                                  class="form-control inline-input"
+                                  placeholder="Please specify"
+                                />
+                              </label>
+                            </div>
+                            <div>
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="sexual_orientation"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW
+                              </label>
+                              <label class="radio-label">
+                                <input
+                                  type="radio"
+                                  name="sexual_orientation"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- QUESTION 13 -->
+
+                        <!-- QUESTION 14 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 14/20</strong>
+                          </h3>
+                          <h4 class="main_question">
+                            What happened that caused you to lose your housing
+                            most recently?
+                          </h4>
+                          <div
+                            class="form-group checkbox-group"
+                            style="
+                              display: grid;
+                              grid-template-columns: repeat(3, 1fr);
+                              gap: 20px;
+                            "
+                          >
+                            <!-- Column A: Housing and Financial Issues -->
+                            <div>
+                              <strong>A: HOUSING AND FINANCIAL ISSUES</strong>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="financial_issues"
+                                  />
+                                  NOT ENOUGH INCOME FOR HOUSING</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="unsafe_housing"
+                                  />
+                                  UNFIT/UNSAFE HOUSING CONDITION</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="building_sold"
+                                  />
+                                  BUILDING SOLD OR RENOVATED</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="owner_moved_in"
+                                  />
+                                  OWNER MOVED IN</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="landlord_tenant_conflict"
+                                  />
+                                  LANDLORD/TENANT CONFLICT</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="complaint"
+                                  />
+                                  COMPLAINT (E.G. PETS/NOISE/DAMAGE)</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="left_community"
+                                  />
+                                  LEFT THE COMMUNITY/RELOCATED</label
+                                >
+                              </div>
+                            </div>
+
+                            <!-- Column B: Interpersonal and Family Issues -->
+                            <div>
+                              <strong
+                                >B: INTERPERSONAL AND FAMILY ISSUES</strong
+                              >
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="spouse_partner_conflict"
+                                  />
+                                  CONFLICT WITH: SPOUSE / PARTNER</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="parent_guardian_conflict"
+                                  />
+                                  CONFLICT WITH: PARENT / GUARDIAN</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label">
+                                  <input
+                                    type="checkbox"
+                                    id="other_conflict_checkbox"
+                                    name="housing_loss_reason"
+                                    value="other_conflict"
+                                  />
+                                  CONFLICT WITH: OTHER
+                                </label>
+                                <input
+                                  type="text"
+                                  id="other_conflict_input"
+                                  name="other_conflict"
+                                  class="form-control"
+                                  placeholder="Please specify"
+                                  style="display: none"
+                                />
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="spouse_partner_abuse"
+                                  />
+                                  EXPERIENCED ABUSE BY: SPOUSE / PARTNER</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="parent_guardian_abuse"
+                                  />
+                                  EXPERIENCED ABUSE BY: PARENT / GUARDIAN</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label">
+                                  <input
+                                    type="checkbox"
+                                    id="other_abuse_checkbox"
+                                    name="housing_loss_reason"
+                                    value="other_abuse"
+                                  />
+                                  EXPERIENCED ABUSE BY: OTHER
+                                </label>
+                                <input
+                                  type="text"
+                                  id="other_abuse_input"
+                                  name="other_abuse"
+                                  class="form-control"
+                                  placeholder="Please specify"
+                                  style="display: none"
+                                />
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="family_departure"
+                                  />
+                                  DEPARTURE OF FAMILY MEMBER</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="experienced_discrimination"
+                                  />
+                                  EXPERIENCED DISCRIMINATION</label
+                                >
+                              </div>
+                            </div>
+
+                            <!-- Column C: Health or Corrections -->
+                            <div>
+                              <strong>C: HEALTH OR CORRECTIONS</strong>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="physical_health_issue"
+                                  />
+                                  PHYSICAL HEALTH ISSUE</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="mental_health_issue"
+                                  />
+                                  MENTAL HEALTH ISSUE</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="substance_use_issue"
+                                  />
+                                  SUBSTANCE USE ISSUE</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="hospitalization"
+                                  />
+                                  HOSPITALIZATION OR TREATMENT PROGRAM</label
+                                >
+                              </div>
+                              <div style="margin-bottom: 10px">
+                                <label class="checkbox-label"
+                                  ><input
+                                    type="checkbox"
+                                    name="housing_loss_reason"
+                                    value="incarceration"
+                                  />
+                                  INCARCERATION (JAIL OR PRISON)</label
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Other Reasons -->
+                          <div style="margin-top: 20px">
+                            <label class="checkbox-label"
+                              ><input
+                                type="checkbox"
+                                name="housing_loss_reason"
+                                value="other_reason"
+                              />
+                              OTHER REASON:</label
+                            >
+                            <input
+                              type="text"
+                              name="other_housing_loss_reason"
+                              class="form-control"
+                              placeholder="Please specify"
+                            />
+                          </div>
+
+                          <h4 class="main_question">
+                            Was your most recent housing loss related to the
+                            COVID-19 pandemic?
+                          </h4>
+                          <div class="form-group radio-group">
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="covid_related_loss"
+                                value="yes"
+                              />
+                              YES</label
+                            >
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="covid_related_loss"
+                                value="no"
+                              />
+                              NO</label
+                            >
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="covid_related_loss"
+                                value="dont_know"
+                              />
+                              DON’T KNOW</label
+                            >
+                            <label class="radio-label"
+                              ><input
+                                type="radio"
+                                name="covid_related_loss"
+                                value="decline"
+                              />
+                              DECLINE TO ANSWER</label
+                            >
+                          </div>
+                          <h4 class="main_question">
+                            How long ago did that happen (that you lost your
+                            housing most recently)?
+                          </h4>
+                          <div
+                            style="
+                              display: flex;
+                              align-items: center;
+                              gap: 10px;
+                            "
+                          >
+                            <input
+                              type="text"
+                              name="time_since_housing_loss"
+                              class="form-control"
+                              placeholder="Enter duration"
+                              style="flex-grow: 1; max-width: 200px"
+                            />
+                            <select
+                              name="time_unit"
+                              class="form-control"
+                              style="flex-grow: 1; max-width: 200px"
+                            >
+                              <option value="days">DAYS</option>
+                              <option value="weeks">WEEKS</option>
+                              <option value="months">MONTHS</option>
+                              <option value="years">YEARS</option>
+                            </select>
+                          </div>
+                          <div
+                            class="checkbox-group"
+                            style="
+                              display: grid;
+                              grid-template-columns: repeat(
+                                auto-fill,
+                                minmax(250px, 1fr)
+                              );
+                              gap: 10px;
+                            "
+                          >
+                            <label class="checkbox-label"
+                              ><input
+                                type="checkbox"
+                                name="time_since_housing_loss_unknown"
+                                value="dont_know"
+                              />
+                              DON’T KNOW</label
+                            >
+                            <label class="checkbox-label"
+                              ><input
+                                type="checkbox"
+                                name="time_since_housing_loss_decline"
+                                value="decline"
+                              />
+                              DECLINE TO ANSWER</label
+                            >
+                          </div>
+                        </div>
+                        <!-- QUESTION 14 -->
+
+                        <!-- QUESTION 15 -->
+                        <div class="step">
+                          <h3 class="main_question">
+                            <strong>Question 15/20</strong>
+                          </h3>
+                          <h4 class="main_question">
+                            What are your sources of income?
+                          </h4>
+                          <div
+                            class="form-group checkbox-group"
+                            style="
+                              display: grid;
+                              grid-template-columns: repeat(3, 1fr);
+                              gap: 15px;
+                            "
+                          >
+                            <!-- Column 1 -->
+                            <div>
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="full_time_employment"
+                                />
+                                FULL TIME EMPLOYMENT</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="part_time_employment"
+                                />
+                                PART TIME EMPLOYMENT</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="casual_employment"
+                                />
+                                CASUAL EMPLOYMENT (E.G. CONTRACT WORK)</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="informal_income_sources"
+                                />
+                                INFORMAL INCOME SOURCES (E.G. BOTTLE RETURNS,
+                                PANHANDLING)</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="money_family_friends"
+                                />
+                                MONEY FROM FAMILY/FRIENDS</label
+                              >
+                            </div>
+
+                            <!-- Column 2 -->
+                            <div>
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="employment_insurance"
+                                />
+                                EMPLOYMENT INSURANCE</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="disability_benefit"
+                                />
+                                DISABILITY BENEFIT [Name of PROV. DISABILITY
+                                BENEFIT]</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="seniors_benefits"
+                                />
+                                SENIORS BENEFITS (E.G. CPP/OAS/GIS)</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="welfare_social_assistance"
+                                />
+                                WELFARE/SOCIAL ASSISTANCE [Prov. Benefit]</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="veteran_vac_benefits"
+                                />
+                                VETERAN/VAC BENEFITS</label
+                              >
+                            </div>
+
+                            <!-- Column 3 -->
+                            <div>
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="child_family_tax_benefits"
+                                />
+                                CHILD AND FAMILY TAX BENEFITS</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="gst_hst_refund"
+                                />
+                                GST/HST REFUND</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="other_money_service_agency"
+                                />
+                                OTHER MONEY FROM A SERVICE AGENCY</label
+                              >
+
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                              >
+                                <input
+                                  type="checkbox"
+                                  id="income_source"
+                                  name="income_source"
+                                  value="other"
+                                />
+                                OTHER SOURCE:</label
+                              >
+                              <input
+                                type="text"
+                                id="other_income_source"
+                                name="other_income_source"
+                                class="form-control"
+                                placeholder="Please specify"
+                                style="margin-bottom: 10px"
+                              />
+
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="no_income"
+                                />
+                                NO INCOME</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="dont_know"
+                                />
+                                DON’T KNOW</label
+                              >
+                              <label
+                                class="checkbox-label"
+                                style="display: block; margin-bottom: 20px"
+                                ><input
+                                  type="checkbox"
+                                  name="income_source"
+                                  value="decline"
+                                />
+                                DECLINE TO ANSWER</label
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <!-- QUESTION 15 -->
+
+                        <!-- QUESTION 16 -->
+                        <div class="step"></div>
+                        <!-- QUESTION 16 -->
+
+                        <!-- QUESTION 17 -->
+                        <div class="step"></div>
+                        <!-- QUESTION 17 -->
+
+                        <!-- QUESTION 18 -->
+                        <div class="step"></div>
+                        <!-- QUESTION 18 -->
+
+                        <!-- QUESTION 19 -->
+                        <div class="step"></div>
+                        <!-- QUESTION 19 -->
+
+                        <!-- QUESTION 20 -->
+                        <div class="step"></div>
+                        <!-- QUESTION 20 -->
+
+                        <!-- ALL QUESTIONS HERE -->
+
+                        <!-- LAST  QUESTION BEFORE TO SUBMITT -->
+                        <div class="submit step">
+                          <h3 class="main_question">
+                            <strong>10/10</strong>Please fill with your details
+                          </h3>
+
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="company_name"
+                                  class="form-control"
+                                  placeholder="Your company name"
+                                />
+                              </div>
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="firstname"
+                                  class="required form-control"
+                                  placeholder="First name"
+                                />
+                              </div>
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="lastname"
+                                  class="required form-control"
+                                  placeholder="Last name"
+                                />
+                              </div>
+                            </div>
+                            <!-- /col-sm-6 -->
+
+                            <div class="col-sm-6">
+                              <div class="form-group">
+                                <input
+                                  type="email"
+                                  name="email"
+                                  class="required form-control"
+                                  placeholder="Your Email"
+                                />
+                              </div>
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="telephone"
+                                  class="required form-control"
+                                  placeholder="Your Telephone"
+                                />
+                              </div>
+                              <div class="form-group">
+                                <div class="styled-select">
+                                  <select class="required" name="country">
+                                    <option value="" selected>
+                                      Select your country
+                                    </option>
+                                    <option value="Europe">Europe</option>
+                                    <option value="Asia">Asia</option>
+                                    <option value="North America">
+                                      North America
+                                    </option>
+                                    <option value="South America">
+                                      South America
+                                    </option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /col-sm-6 -->
+                          </div>
+                          <!-- /row -->
+
+                          <div class="form-group checkbox_questions">
+                            <input
+                              name="terms"
+                              type="checkbox"
+                              class="icheck required"
+                              value="yes"
+                            />
+                            <label
+                              >Please accept
+                              <a
+                                href="#"
+                                data-bs-toggle="modal"
+                                data-bs-target="#terms-txt"
+                                >terms and conditions</a
+                              >
+                              ?
+                            </label>
+                          </div>
+                        </div>
+                        <!-- LAST  QUESTION BEFORE TO SUBMITT -->
+                      </div>
+                      <!-- /middle-wizard -->
+                      <div id="bottom-wizard">
+                        <button
+                          type="button"
+                          name="backward"
+                          class="backward StartSurvey"
+                        >
+                          Backward
+                        </button>
+                        <button
+                          type="button"
+                          name="forward"
+                          class="forward StartSurvey"
+                        >
+                          Forward
+                        </button>
+                        <button
+                          type="submit"
+                          name="process"
+                          class="submit StartSurvey"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                      <!-- /bottom-wizard -->
+                    </form>
+                  </div>
+                  <!-- /Wizard container -->
+                </div>
+                <!-- /col -->
+              </div>
+              <!-- /row -->
+            </div>
+            <!-- /TAB 1:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+          </div>
+          <!-- /tab content -->
+        </div>
+        <!-- /container-fluid -->
+      </div>
+      <!-- /wrapper_in -->
+    </div>
+    <!-- /main_container -->
+
+    <!-- Modal terms -->
+    <div
+      class="modal fade"
+      id="terms-txt"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="termsLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Terms and conditions</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet, in porro albucius qui, in
+              <strong>nec quod novum accumsan</strong>, mei ludus tamquam
+              dolores id. No sit debitis meliore postulant, per ex prompta
+              alterum sanctus, pro ne quod dicunt sensibus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod
+              novum accumsan, mei ludus tamquam dolores id. No sit debitis
+              meliore postulant, per ex prompta alterum sanctus, pro ne quod
+              dicunt sensibus. Lorem ipsum dolor sit amet,
+              <strong>in porro albucius qui</strong>, in nec quod novum
+              accumsan, mei ludus tamquam dolores id. No sit debitis meliore
+              postulant, per ex prompta alterum sanctus, pro ne quod dicunt
+              sensibus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod
+              novum accumsan, mei ludus tamquam dolores id. No sit debitis
+              meliore postulant, per ex prompta alterum sanctus, pro ne quod
+              dicunt sensibus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn_1" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- SCRIPTS -->
+    <!-- Jquery-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Common script -->
+    <script src="js/common_scripts_min.js"></script>
+    <!-- Theme script -->
+    <script src="js/functions.js"></script>
+    <script src="js/azin.js"></script>
+    <!-- Google map -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/mapmarker.jquery.js"></script>
+    <script src="js/mapmarker_func.jquery.js"></script>
+  </body>
 </html>

@@ -8,6 +8,13 @@
   margin: 0;
   padding: 0;
 }
+
+.buttonform {
+  background-color: #364f6e;
+  color: white;
+  height: 44px;
+}
+
 .vertical-hr {
   border: none;
   border-left: 1px solid #777777;
@@ -15,6 +22,14 @@
   margin: 0;
   padding: 0;
   display: inline-block;
+}
+
+.divSearch {
+  margin-left: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
 }
 
 .textNav {
@@ -28,6 +43,10 @@
   gap: 20px;
 }
 
+.spaceText {
+  margin-left: 950px;
+}
+
 .blanco {
   background-color: white;
   width: 100%;
@@ -37,7 +56,7 @@
 .logo {
   background: linear-gradient(to bottom, #364f6e, #6c7d95);
   width: 100%;
-  height: 120px;
+  height: 140px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +66,14 @@
 .logoCasa {
   height: 50%;
   margin-left: -20px;
+}
+
+.imgSearch {
+  background-color: #93a3b4;
+  z-index: 200;
+  height: 37px;
+  margin-left: 0px;
+  height: 40px;
 }
 
 .bannerTitle {
@@ -94,9 +121,6 @@
   height: 180px;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 .footer3 {
@@ -105,9 +129,12 @@
   height: 20px;
   margin: 0;
   padding: 0;
+}
+
+.footerFlex {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .footerTitle {
@@ -126,3 +153,24 @@
   color: #0e4164;
 }
 /* footer */
+
+/* hidden main survay button */
+.StartSurveyMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+.StartSurvey {
+  width: 150px;
+  background-color: #0e4164;
+  border: 1px solid white;
+}
+
+.StartSurvey:hover {
+  background-color: #586c87;
+  border: 1px solid white;
+}
+
+/* hidden main survay button */
