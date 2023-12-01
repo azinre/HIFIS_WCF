@@ -105,88 +105,9 @@
                         value=""
                       /><!-- Leave for security protection, read docs for details -->
                       <div id="middle-wizard">
-
-
-                        <div class="step">
-                          <h3 class="main_question">
-                            <strong>1/10</strong>1. Do you have family members
-                            or anyone else who is staying with you tonight? /
-                            Did you have any family members or anyone else who
-                            stayed with you last night?
-                          </h3>
-
-                          <div class="row add_bottom_30">
-                            <div class="col-sm-6">
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Custom interface and layout"
-                                    class="icheck required"
-                                  />NONE
-                                </label>
-                              </div>
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Web site design"
-                                    class="icheck required"
-                                  />PARTNER
-                                </label>
-                              </div>
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Seo optimization"
-                                    class="icheck required"
-                                  />OTHER ADULT(S) (Can include other family or
-                                  friends)
-                                </label>
-                              </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="CMS integrations (Wordpress)"
-                                    class="icheck required"
-                                  />DECLINE TO ANSWER
-                                </label>
-                              </div>
-                              <div class="form-group checkbox_questions">
-                                <label>
-                                  <input
-                                    name="question_2[]"
-                                    type="checkbox"
-                                    value="Domain registration"
-                                    class="icheck required"
-                                  />CHILD(REN)/DEPENDENT(S)
-                                </label>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- /row-->
-                          <div class="form-group textarea_info">
-                            <label>Additional info</label>
-                            <textarea
-                              name="addtional_info"
-                              class="form-control"
-                              style="height: 150px"
-                              placeholder="indicate gender and age for each"
-                            ></textarea>
-                          </div>
-                        </div>
                         <!-- Question c -->
                         <div class="step">
-                          <h3 class="main_question"><strong>2/10</strong>Current Accommodation</h3>
+                          <!-- <h3 class="main_question"><strong>2/10</strong>Current Accommodation</h3> -->
                           <h3>Where are you staying tonight? / Where did you stay last night (if surveyed on October 27th)?</h3>                      
                           <div class="form-group select">
                               <label for="current_accommodation" class="select-label">Select your current accommodation:</label>
@@ -243,10 +164,7 @@
                         }
                         </script>
                         <!-- Question 1 --> 
-                        <!-- <div class="step">
-                          <h3 class="main_question">
-                            <strong>1/10</strong>
-                          </h3>
+                        <div class="step">
                           <div class="container">
                             <h3 class="survey-question">1. Do you have family members or anyone else who is staying with you tonight? / Did you have any family members or anyone else who stayed with you last night?</h3>
                             <form id="familyMembersForm">
@@ -302,9 +220,9 @@
                                         </td>
                                       </tr>
                                   </tbody>
-                                </table> -->
+                                </table>
                                 <!-- Add button to dynamically add more children rows if needed -->
-                                <!-- <button type="button" id="addChildButton">Add Child</button>
+                                <button type="button" id="addChildButton">Add Child</button>
                             </form>                    
                           </div> 
                         </div>                       
@@ -335,10 +253,10 @@
                                 }
                             }
                           });
-                        </script>   -->
+                        </script>  
                         <!-- Question 2 --> 
                         <div class="step">
-                          <h3 class="main_question"><strong>Question 2</strong></h3>
+                          <!-- <h3 class="main_question"><strong>Question 2</strong></h3> -->
                           <h3>How old are you? [OR] What year were you born? [If unsure, ask for best estimate]</h3>
                           
                           <div class="form-group" >
@@ -1039,19 +957,110 @@
                         </script>
                         <!-- Question 16 -->  
                         <div class="step">
-                          
+                          <h4 class="main_question">What is the highest level of education you completed?</h4>
+                            <div class="form-group checkbox-group" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+                                <label class="checkbox-label" style="margin-bottom: 10px;"><input type="checkbox" name="education_level" value="primary_school"> PRIMARY SCHOOL</label>
+                                <label class="checkbox-label" style="margin-bottom: 10px;"><input type="checkbox" name="education_level" value="some_high_school"> SOME HIGH SCHOOL</label>
+                                <label class="checkbox-label" style="margin-bottom: 10px;"><input type="checkbox" name="education_level" value="high_school_graduate"> HIGH SCHOOL GRADUATE/GED</label>
+                                <label class="checkbox-label" style="margin-bottom: 10px;"><input type="checkbox" name="education_level" value="some_post_secondary"> SOME POST SECONDARY</label>
+                                <label class="checkbox-label" style="margin-bottom: 10px;"><input type="checkbox" name="education_level" value="post_secondary_graduate"> POST SECONDARY GRADUATE</label>
+                                <label class="checkbox-label" style="margin-bottom: 10px;"><input type="checkbox" name="education_level" value="graduate_degree"> GRADUATE DEGREE (E.G., MASTERS, Ph.D.)</label>
+                                <label class="checkbox-label" style="margin-bottom: 10px;"><input type="checkbox" name="education_level" value="no_formal_education"> NO FORMAL EDUCATION</label>
+                                <label class="checkbox-label" style="margin-bottom: 10px;"><input type="checkbox" name="education_level" value="dont_know"> DON’T KNOW</label>
+                                <label class="checkbox-label"><input type="checkbox" name="education_level" value="decline"> DECLINE TO ANSWER</label>
+                            </div>
                         </div>
                         <!-- Question 17 -->  
                         <div class="step">
-                          
+                          <h4 class="main_question">Do you want to get into permanent housing?</h4>
+                          <div class="form-group radio-group" style="display: flex; flex-direction: column; gap: 10px;">
+                              <label class="radio-label" style="margin-bottom: 10px;"><input type="radio" name="housing_preference" value="yes"> YES</label>
+                              <label class="radio-label" style="margin-bottom: 10px;"><input type="radio" name="housing_preference" value="no"> NO</label>
+                              <label class="radio-label" style="margin-bottom: 10px;"><input type="radio" name="housing_preference" value="dont_know"> DON’T KNOW</label>
+                              <label class="radio-label"><input type="radio" name="housing_preference" value="decline"> DECLINE TO ANSWER</label>
+                          </div>
                         </div>
                         <!-- Question 18 -->  
                         <div class="step">
-                          
+                          <h4 class="main_question">What challenges or problems have you experienced when trying to find housing?</h4>
+                          <div class="form-group checkbox-group" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="low_income"> LOW INCOME</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="no_income_assistance"> NO INCOME ASSISTANCE</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="rents_too_high"> RENTS TOO HIGH</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="poor_housing_conditions"> POOR HOUSING CONDITIONS</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="domestic_violence"> DOMESTIC VIOLENCE</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="health_disability_issues"> HEALTH/DISABILITY ISSUES</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="mental_health_issues"> MENTAL HEALTH ISSUES</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="addiction"> ADDICTION</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="family_breakdown_conflict"> FAMILY BREAKDOWN/CONFLICT</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="criminal_history"> CRIMINAL HISTORY</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="pets"> PETS</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="children"> CHILDREN</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="discrimination"> DISCRIMINATION</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="dont_want_housing"> DON’T WANT HOUSING</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="no_barriers"> NO BARRIERS TO HOUSING</label>
+                              <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="decline"> DECLINE TO ANSWER</label>
+                              <div>
+                                <label class="checkbox-label"><input type="checkbox" name="housing_challenges" value="other"> OTHER:</label>
+                                <input type="text" name="other_housing_challenges" class="form-control" placeholder="Please specify">
+                              </div>
+                          </div>
                         </div>
+                        <script>
+                          document.addEventListener('DOMContentLoaded', function() {
+                              // Get the checkbox and the text input element
+                              var otherCheckbox = document.querySelector("input[name='housing_challenges'][value='other']");
+                              var otherInput = document.querySelector("input[name='other_housing_challenges']");
+                          
+                              // Initially hide the text input
+                              otherInput.style.display = 'none';
+                          
+                              // Add an event listener to the checkbox
+                              otherCheckbox.addEventListener('change', function() {
+                                  // Toggle the display of the text input based on the checkbox state
+                                  if (otherCheckbox.checked) {
+                                      otherInput.style.display = 'block';
+                                  } else {
+                                      otherInput.style.display = 'none';
+                                      otherInput.value = ''; // Clear the input when checkbox is unchecked
+                                  }
+                              });
+                          });
+                        </script>                          
                         <!-- Question 19 -->  
                         <div class="step">
-                          
+                          <div class="form-group">
+                            <h3 class="main_question">What experiences would you need support with to help you through your housing journey?</h3>
+                            <div class="checkbox-group" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px;">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="support_needs" value="medical_condition"> SERIOUS/ONGOING MEDICAL CONDITION
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="support_needs" value="addiction"> ADDICTION OR SUBSTANCE USE
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="support_needs" value="mental_health"> MENTAL HEALTH (Counselling, treatment, etc.)
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="support_needs" value="physical_disability"> PHYSICAL DISABILITY
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="support_needs" value="learning_disability"> LEARNING DISABILITY
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="support_needs" value="brain_injury"> BRAIN INJURY
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="support_needs" value="pregnancy"> PREGNANCY
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="support_needs" value="none"> NONE OF THE ABOVE
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="support_needs" value="decline"> DECLINE TO ANSWER
+                                </label>
+                            </div>
+                        </div>
                         </div>
                         <!-- /step 1 -->
                         
@@ -1625,7 +1634,7 @@
                           </div>
                         </div>
                         <!-- /step 4-->
-                        </div>
+                      </div>
                       <!-- /middle-wizard -->
                       <div id="bottom-wizard">
                         <button type="button" name="backward" class="backward">
@@ -1732,4 +1741,3 @@
   </body>
   
 </html>
-
