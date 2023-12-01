@@ -164,13 +164,30 @@
 
 .StartSurvey {
   width: 150px;
-  background-color: #0e4164;
+  background-color: #a01621;
   border: 1px solid white;
+  color: #ffffff;
 }
 
 .StartSurvey:hover {
-  background-color: #586c87;
+  background-color: #005792;
   border: 1px solid white;
+  color: #ffffff;
+  border: 1px solid #0e4164;
+}
+
+.AddChild{
+  width: 150px;
+  background-color: #578ac1;
+  border: 1px solid white;
+  color: #ffffff;
+}
+
+.AddChild:hover{
+  width: 150px;
+  background-color: #68a5e7;
+  border: 1px solid white;
+  color: #ffffff;
 }
 
 /* hidden main survay button */

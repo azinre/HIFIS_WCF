@@ -1868,3 +1868,47 @@ blockquote.styled small:before {
     visibility: hidden;
   }
 }
+
+.radio-label {
+  margin-right: 20px; /* Adjust the value as needed */
+  display: inline-block; /* This makes the margin apply correctly */
+  vertical-align: middle; /* Aligns the label with the radio button vertically */
+}
+
+/* Optional: Styling for spacing and alignment */
+.radio-group {
+  margin-bottom: 15px; /* Adds space below the group */
+}
+.survey-question {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.checkbox-inline {
+  margin-right: 15px;
+}
+
+.checkbox-inline input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  text-align: center;
+}
+
+.table td input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.input-age {
+  max-width: 200px;
+}
+.checkbox-group .checkbox {
+  margin-bottom: 10px;
+}
