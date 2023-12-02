@@ -134,7 +134,7 @@
     // PHPMailer text/html SMTP > phpmailer/quote_phpmailer_smtp.php
     // PHPMailer with html template > phpmailer/quote_phpmailer_template.php
     // PHPMailer with html template SMTP> phpmailer/quote_phpmailer_template_smtp.php
-    $("form#wrapped").attr("action", "quote_send.php");
+    $("form#wrapped").attr("action", "quote_send.html");
     $("#wizard_container")
       .wizard({
         stepsWrapper: "#wrapped",
