@@ -196,7 +196,7 @@
                 <label
                   >YES
                   <input
-                    name="question_1"
+                    name="question_1111"
                     type="radio"
                     class="icheck required"
                   />
@@ -206,7 +206,7 @@
                 <label
                   >NO
                   <input
-                    name="question_1"
+                    name="question_1111"
                     type="radio"
                     class="icheck required"
                   />
@@ -268,7 +268,7 @@
                     <label
                       >YES
                       <input
-                        name="question_12"
+                        name="question_1112"
                         type="radio"
                         class="icheck required"
                       />
@@ -278,7 +278,7 @@
                     <label
                       >NO
                       <input
-                        name="question_12"
+                        name="question_1112"
                         type="radio"
                         class="icheck required"
                       />
@@ -320,7 +320,7 @@
               </ul>
             </div>
             <div class="StartSurveyMain">
-              <button class="btn StartSurvey" id="StartSurvey">
+              <button name="forward" class="btn StartSurvey" id="StartSurvey">
                 Start <i class="fa-regular fa-circle-play"></i>
               </button>
             </div>
@@ -452,8 +452,8 @@
                                 <option value="Own Apartment / House">
                                   Own Apartment / House
                                 </option>
-                                <option value="Someone Else’s Place">
-                                  Someone Else’s Place
+                                <option value="Someone Else's Place">
+                                  Someone Else's Place
                                 </option>
                                 <option value="Motel/Hotel (Self-Funded)">
                                   Motel/Hotel (Self-Funded)
@@ -519,7 +519,7 @@
 
                             <div class="form-group radio_questions">
                               <label
-                                >Yes
+                                >YES
                                 <input
                                   name="question_1"
                                   type="radio"
@@ -530,7 +530,7 @@
                             </div>
                             <div class="form-group radio_questions">
                               <label
-                                >No
+                                >NO
                                 <input
                                   name="question_1"
                                   type="radio"
@@ -541,7 +541,7 @@
                             </div>
                             <div class="form-group radio_questions">
                               <label
-                                >Don't Know
+                                >DON'T KNOW
                                 <input
                                   name="question_1"
                                   type="radio"
@@ -552,7 +552,7 @@
                             </div>
                             <div class="form-group radio_questions">
                               <label
-                                >Decline to Answer
+                                >DECLINE TO ANSWER
                                 <input
                                   name="question_1"
                                   type="radio"
@@ -603,10 +603,12 @@
                                 value="Web site design"
                                 class="icheck required"
                               />PARTNER - Survey #:
+
                               <input
                                 type="text"
                                 name="partner_survey_number"
                                 maxlength="4"
+                                placeholder="# Survey"
                               />
                             </label>
                           </div>
@@ -1326,48 +1328,34 @@
                               <option value="months">MONTHS</option>
                               <option value="years">YEARS</option>
                             </select>
-                            <div
-                              class="checkbox-group"
-                              style="margin-top: 10px; text-align: left"
-                            >
-                              <label
-                                class="checkbox-label"
-                                style="
-                                  display: inline-block;
-                                  margin-right: 20px;
-                                "
-                              >
+                            <div class="form-group checkbox_questions">
+                              <label>
                                 <input
+                                  name="question_2[]"
                                   type="checkbox"
-                                  name="always_in_ottawa"
-                                  value="always_here"
-                                />
-                                ALWAYS BEEN HERE
+                                  value="Web site design"
+                                  class="icheck required"
+                                />ALWAYS BEEN HERE
                               </label>
-                              <label
-                                class="checkbox-label"
-                                style="
-                                  display: inline-block;
-                                  margin-right: 20px;
-                                "
-                              >
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
                                 <input
+                                  name="question_2[]"
                                   type="checkbox"
-                                  name="unknown_duration_ottawa"
-                                  value="dont_know"
-                                />
-                                DON’T KNOW
+                                  value="Web site design"
+                                  class="icheck required"
+                                />DON'T KNOW
                               </label>
-                              <label
-                                class="checkbox-label"
-                                style="display: inline-block"
-                              >
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
                                 <input
+                                  name="question_2[]"
                                   type="checkbox"
-                                  name="decline_duration_ottawa"
-                                  value="decline"
-                                />
-                                DECLINE TO ANSWER
+                                  value="Web site design"
+                                  class="icheck required"
+                                />DECLINE TO ANSWER
                               </label>
                             </div>
                           </div>
@@ -1391,18 +1379,15 @@
                               placeholder="PROVINCE/TERRITORY/COUNTRY"
                               style="max-width: 300px"
                             />
-                            <div
-                              class="checkbox-group"
-                              style="margin-top: 10px"
-                            >
-                              <label class="checkbox-label"
-                                ><input
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_2[]"
                                   type="checkbox"
-                                  name="decline_previous_location"
-                                  value="decline"
-                                />
-                                DECLINE TO ANSWER</label
-                              >
+                                  value="Web site design"
+                                  class="icheck required"
+                                />DECLINE TO ANSWER
+                              </label>
                             </div>
                           </div>
 
@@ -1462,37 +1447,24 @@
                                 margin-bottom: 10px;
                               "
                             />
-                            <div
-                              class="checkbox-group"
-                              style="margin-top: 10px; text-align: left"
-                            >
-                              <label
-                                class="checkbox-label"
-                                style="
-                                  display: inline-block;
-                                  margin-right: 20px;
-                                "
-                              >
+                            <div class="form-group checkbox_questions">
+                              <label>
                                 <input
+                                  name="question_2[]"
                                   type="checkbox"
-                                  name="unknown_reason_for_coming"
-                                  value="dont_know"
-                                />
-                                DON’T KNOW
+                                  value="Web site design"
+                                  class="icheck required"
+                                />DON'T KNOW
                               </label>
-                              <label
-                                class="checkbox-label"
-                                style="
-                                  display: inline-block;
-                                  margin-right: 20px;
-                                "
-                              >
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
                                 <input
+                                  name="question_2[]"
                                   type="checkbox"
-                                  name="decline_reason_for_coming"
-                                  value="decline"
-                                />
-                                DECLINE TO ANSWER
+                                  value="Web site design"
+                                  class="icheck required"
+                                />DECLINE TO ANSWER
                               </label>
                             </div>
                           </div>
@@ -1525,62 +1497,89 @@
                               Do you identify as First Nations, Inuit, or Métis,
                               or do you have North American Indigenous ancestry?
                             </h4>
-                            <label class="radio-label"
-                              ><input
-                                type="radio"
-                                name="indigenous_identity"
-                                value="first_nations"
-                              />
-                              YES, FIRST NATIONS</label
-                            >
-                            <label class="radio-label"
-                              ><input
-                                type="radio"
-                                name="indigenous_identity"
-                                value="inuit"
-                              />
-                              YES, INUIT</label
-                            >
-                            <label class="radio-label"
-                              ><input
-                                type="radio"
-                                name="indigenous_identity"
-                                value="metis"
-                              />
-                              YES, MÉTIS</label
-                            >
-                            <label class="radio-label"
-                              ><input
-                                type="radio"
-                                name="indigenous_identity"
-                                value="indigenous_ancestry"
-                              />
-                              YES, INDIGENOUS ANCESTRY</label
-                            >
-                            <label class="radio-label"
-                              ><input
-                                type="radio"
-                                name="indigenous_identity"
-                                value="no"
-                              />
-                              NO</label
-                            >
-                            <label class="radio-label"
-                              ><input
-                                type="radio"
-                                name="indigenous_identity"
-                                value="dont_know"
-                              />
-                              DON’T KNOW</label
-                            >
-                            <label class="radio-label"
-                              ><input
-                                type="radio"
-                                name="indigenous_identity"
-                                value="decline"
-                              />
-                              DECLINE TO ANSWER</label
-                            >
+                            <div class="form-group radio_questions">
+                              <label
+                                >YES, FIRST NATIONS
+                                <input
+                                  name="question_88"
+                                  type="radio"
+                                  value="My budget is under $500"
+                                  class="icheck required"
+                                />
+                              </label>
+                            </div>
+
+                            <div class="form-group radio_questions">
+                              <label
+                                >YES, INUIT
+                                <input
+                                  name="question_88"
+                                  type="radio"
+                                  value="My budget is under $500"
+                                  class="icheck required"
+                                />
+                              </label>
+                            </div>
+
+                            <div class="form-group radio_questions">
+                              <label
+                                >YES, MÉTIS
+                                <input
+                                  name="question_88"
+                                  type="radio"
+                                  value="My budget is under $500"
+                                  class="icheck required"
+                                />
+                              </label>
+                            </div>
+
+                            <div class="form-group radio_questions">
+                              <label
+                                >YES, INDIGENOUS ANCESTRY
+                                <input
+                                  name="question_88"
+                                  type="radio"
+                                  value="My budget is under $500"
+                                  class="icheck required"
+                                />
+                              </label>
+                            </div>
+
+                            <div class="form-group radio_questions">
+                              <label
+                                >NO
+                                <input
+                                  name="question_88"
+                                  type="radio"
+                                  value="My budget is under $500"
+                                  class="icheck required"
+                                />
+                              </label>
+                            </div>
+
+                            <div class="form-group radio_questions">
+                              <label
+                                >DON’T KNOW
+                                <input
+                                  name="question_88"
+                                  type="radio"
+                                  value="My budget is under $500"
+                                  class="icheck required"
+                                />
+                              </label>
+                            </div>
+
+                            <div class="form-group radio_questions">
+                              <label
+                                >DECLINE TO ANSWER
+                                <input
+                                  name="question_88"
+                                  type="radio"
+                                  value="My budget is under $500"
+                                  class="icheck required"
+                                />
+                              </label>
+                            </div>
                           </div>
                           <div class="form-group">
                             <h4 class="main_question">
@@ -1588,106 +1587,120 @@
                               above, do you identify with any of the racial
                               identities listed below?
                             </h4>
-                            <div
-                              class="checkbox-group"
-                              style="
-                                display: grid;
-                                grid-template-columns: repeat(2, 1fr);
-                                gap: 10px;
-                              "
-                            >
-                              <label class="checkbox-label"
-                                ><input
+
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="arab"
-                                />
-                                ARAB (e.g., Syrian, Egyptian, Yemeni)</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />ARAB (e.g., Syrian, Egyptian, Yemeni)
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="asian_east"
-                                />
-                                ASIAN-EAST (e.g., Chinese, Korean,
-                                Japanese)</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />ASIAN-EAST (e.g., Chinese, Korean, Japanese)
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="asian_southeast"
-                                />
-                                ASIAN- SOUTH-EAST (e.g., Filipino, Vietnamese,
-                                Cambodian)</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />ASIAN- SOUTH-EAST (e.g., Filipino, Vietnamese,
+                                Cambodian)
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="asian_south"
-                                />
-                                ASIAN-SOUTH OR INDO-CARIBBEAN (e.g., Indian,
-                                Pakistani)</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />ASIAN-SOUTH OR INDO-CARIBBEAN (e.g., Indian,
+                                Pakistani)
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="asian_west"
-                                />
-                                ASIAN-WEST (e.g., Iranian, Afghan)</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />ASIAN-WEST (e.g., Iranian, Afghan)
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="black_canadian_american"
-                                />
-                                BLACK-CANADIAN/AMERICAN</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />BLACK-CANADIAN/AMERICAN
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="black_african"
-                                />
-                                BLACK-AFRICAN (e.g., Ghanaian, Ethiopian)</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />BLACK-AFRICAN (e.g., Ghanaian, Ethiopian)
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="latin_american"
-                                />
-                                LATIN AMERICAN (e.g., Brazilian, Mexican)</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />LATIN AMERICAN (e.g., Brazilian, Mexican)
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="white"
-                                />
-                                WHITE (e.g. European, French, Ukrainian)</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />WHITE (e.g. European, French, Ukrainian)
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="black_afro_caribbean"
-                                />
-                                BLACK-AFRO-CARIBBEAN OR AFRO-LATINX (e.g.,
-                                Jamaican, Haitian)</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />BLACK-AFRO-CARIBBEAN OR AFRO-LATINX (e.g.,
+                                Jamaican, Haitian)
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="other"
+                                  value="Web site design"
+                                  class="icheck required"
                                 />
-                                NOT LISTED (PLEASE SPECIFY):</label
-                              >
+                                NOT LISTED (PLEASE SPECIFY):
+                              </label>
                               <input
                                 type="text"
                                 name="other_racial_identity"
@@ -1699,30 +1712,36 @@
                                   margin-top: 10px;
                                 "
                               />
-                              <label class="checkbox-label"
-                                ><input
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="indigenous_only"
-                                />
-                                IDENTIFY AS INDIGENOUS ONLY</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />IDENTIFY AS INDIGENOUS ONLY
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="dont_know"
-                                />
-                                DON’T KNOW</label
-                              >
-                              <label class="checkbox-label"
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />DON'T KNOW
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_8[]"
                                   type="checkbox"
-                                  name="racial_identity"
-                                  value="decline"
-                                />
-                                DECLINE TO ANSWER</label
-                              >
+                                  value="Web site design"
+                                  class="icheck required"
+                                />DECLINE TO ANSWER
+                              </label>
                             </div>
                           </div>
                           <div class="form-group">
@@ -1736,36 +1755,26 @@
                               class="form-control"
                               placeholder="Community / Reserve Name"
                             />
-                            <div
-                              class="checkbox-group"
-                              style="margin-top: 10px; text-align: left"
-                            >
-                              <label
-                                class="checkbox-label"
-                                style="
-                                  display: inline-block;
-                                  margin-right: 20px;
-                                "
-                                ><input
+
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_2[]"
                                   type="checkbox"
-                                  name="community_unknown"
-                                  value="dont_know"
-                                />
-                                DON’T KNOW</label
-                              >
-                              <label
-                                class="checkbox-label"
-                                style="
-                                  display: inline-block;
-                                  margin-right: 20px;
-                                "
-                                ><input
+                                  value="Web site design"
+                                  class="icheck required"
+                                />DON'T KNOW
+                              </label>
+                            </div>
+                            <div class="form-group checkbox_questions">
+                              <label>
+                                <input
+                                  name="question_2[]"
                                   type="checkbox"
-                                  name="community_decline"
-                                  value="decline"
-                                />
-                                DECLINE TO ANSWER</label
-                              >
+                                  value="Web site design"
+                                  class="icheck required"
+                                />DECLINE TO ANSWER
+                              </label>
                             </div>
                           </div>
                         </div>
@@ -1781,54 +1790,70 @@
                               Have you ever served in the Canadian Military or
                               RCMP?
                             </h4>
-                            <div class="radio-group">
-                              <label class="radio-label">
+                            <div class="form-group radio_questions">
+                              <label
+                                >YES, MILITARY
                                 <input
+                                  name="question_9"
                                   type="radio"
-                                  name="military_service"
-                                  value="military"
+                                  value="My budget is under $500"
+                                  class="icheck required"
                                 />
-                                YES, MILITARY
                               </label>
-                              <label class="radio-label">
+                            </div>
+                            <div class="form-group radio_questions">
+                              <label
+                                >YES, RCMP
                                 <input
+                                  name="question_9"
                                   type="radio"
-                                  name="military_service"
-                                  value="rcmp"
+                                  value="My budget is under $500"
+                                  class="icheck required"
                                 />
-                                YES, RCMP
                               </label>
-                              <label class="radio-label">
+                            </div>
+                            <div class="form-group radio_questions">
+                              <label
+                                >BOTH MILITARY AND RCMP
                                 <input
+                                  name="question_9"
                                   type="radio"
-                                  name="military_service"
-                                  value="both"
+                                  value="My budget is under $500"
+                                  class="icheck required"
                                 />
-                                BOTH MILITARY AND RCMP
                               </label>
-                              <label class="radio-label">
+                            </div>
+                            <div class="form-group radio_questions">
+                              <label
+                                >NO
                                 <input
+                                  name="question_9"
                                   type="radio"
-                                  name="military_service"
-                                  value="no"
+                                  value="My budget is under $500"
+                                  class="icheck required"
                                 />
-                                NO
                               </label>
-                              <label class="radio-label">
+                            </div>
+                            <div class="form-group radio_questions">
+                              <label
+                                >DON'T KNOW
                                 <input
+                                  name="question_9"
                                   type="radio"
-                                  name="military_service"
-                                  value="dont_know"
+                                  value="My budget is under $500"
+                                  class="icheck required"
                                 />
-                                DON’T KNOW
                               </label>
-                              <label class="radio-label">
+                            </div>
+                            <div class="form-group radio_questions">
+                              <label
+                                >DECLINE TO ANSWER
                                 <input
+                                  name="question_9"
                                   type="radio"
-                                  name="military_service"
-                                  value="decline"
+                                  value="My budget is under $500"
+                                  class="icheck required"
                                 />
-                                DECLINE TO ANSWER
                               </label>
                             </div>
                           </div>
@@ -1844,38 +1869,48 @@
                             As a child or youth, were you ever in foster care or
                             in a youth group home?
                           </h4>
-                          <div class="form-group radio-group">
-                            <label class="radio-label">
+                          <div class="form-group radio_questions">
+                            <label
+                              >YES
                               <input
+                                name="question_1"
                                 type="radio"
-                                name="foster_care_experience"
-                                value="yes"
+                                value="My budget is between $1000 and $1500"
+                                class="icheck required"
                               />
-                              YES
                             </label>
-                            <label class="radio-label">
+                          </div>
+                          <div class="form-group radio_questions">
+                            <label
+                              >NO
                               <input
+                                name="question_1"
                                 type="radio"
-                                name="foster_care_experience"
-                                value="no"
+                                value="My budget is between $1000 and $1500"
+                                class="icheck required"
                               />
-                              NO
                             </label>
-                            <label class="radio-label">
+                          </div>
+                          <div class="form-group radio_questions">
+                            <label
+                              >DON'T KNOW
                               <input
+                                name="question_1"
                                 type="radio"
-                                name="foster_care_experience"
-                                value="dont_know"
+                                value="My budget is between $1000 and $1500"
+                                class="icheck required"
                               />
-                              DON’T KNOW
                             </label>
-                            <label class="radio-label">
+                          </div>
+                          <div class="form-group radio_questions">
+                            <label
+                              >DECLINE TO ANSWER
                               <input
+                                name="question_1"
                                 type="radio"
-                                name="foster_care_experience"
-                                value="decline"
+                                value="My budget is between $1000 and $1500"
+                                class="icheck required"
                               />
-                              DECLINE TO ANSWER
                             </label>
                           </div>
                           <div class="form-group">
@@ -1890,36 +1925,27 @@
                               placeholder="Enter duration"
                               style="max-width: 200px"
                             />
-                            <div
-                              class="checkbox-group"
-                              style="margin-top: 10px; text-align: left"
-                            >
+                            <div class="form-group radio_questions">
                               <label
-                                class="checkbox-label"
-                                style="
-                                  display: inline-block;
-                                  margin-right: 20px;
-                                "
-                                ><input
-                                  type="checkbox"
-                                  name="unknown_time_after_foster"
-                                  value="dont_know"
+                                >DON'T KNOW
+                                <input
+                                  name="question_1"
+                                  type="radio"
+                                  value="My budget is between $1000 and $1500"
+                                  class="icheck required"
                                 />
-                                DON’T KNOW</label
-                              >
+                              </label>
+                            </div>
+                            <div class="form-group radio_questions">
                               <label
-                                class="checkbox-label"
-                                style="
-                                  display: inline-block;
-                                  margin-right: 20px;
-                                "
-                                ><input
-                                  type="checkbox"
-                                  name="decline_time_after_foster"
-                                  value="decline"
+                                >DECLINE TO ANSWER
+                                <input
+                                  name="question_1"
+                                  type="radio"
+                                  value="My budget is between $1000 and $1500"
+                                  class="icheck required"
                                 />
-                                DECLINE TO ANSWER</label
-                              >
+                              </label>
                             </div>
                           </div>
                         </div>
@@ -3154,52 +3180,49 @@
                           <h4 class="main_question">
                             Do you want to get into permanent housing?
                           </h4>
-                          <div
-                            class="form-group radio-group"
-                            style="
-                              display: flex;
-                              flex-direction: column;
-                              gap: 10px;
-                            "
-                          >
+                          <div class="form-group radio_questions">
                             <label
-                              class="radio-label"
-                              style="margin-bottom: 10px"
-                              ><input
+                              >YES
+                              <input
+                                name="question_1"
                                 type="radio"
-                                name="housing_preference"
-                                value="yes"
+                                value="My budget is between $1000 and $1500"
+                                class="icheck required"
                               />
-                              YES</label
-                            >
+                            </label>
+                          </div>
+                          <div class="form-group radio_questions">
                             <label
-                              class="radio-label"
-                              style="margin-bottom: 10px"
-                              ><input
+                              >NO
+                              <input
+                                name="question_1"
                                 type="radio"
-                                name="housing_preference"
-                                value="no"
+                                value="My budget is between $1000 and $1500"
+                                class="icheck required"
                               />
-                              NO</label
-                            >
+                            </label>
+                          </div>
+                          <div class="form-group radio_questions">
                             <label
-                              class="radio-label"
-                              style="margin-bottom: 10px"
-                              ><input
+                              >DON'T KNOW
+                              <input
+                                name="question_1"
                                 type="radio"
-                                name="housing_preference"
-                                value="dont_know"
+                                value="My budget is between $1000 and $1500"
+                                class="icheck required"
                               />
-                              DON’T KNOW</label
-                            >
-                            <label class="radio-label"
-                              ><input
+                            </label>
+                          </div>
+                          <div class="form-group radio_questions">
+                            <label
+                              >DECLINE TO ANSWER
+                              <input
+                                name="question_1"
                                 type="radio"
-                                name="housing_preference"
-                                value="decline"
+                                value="My budget is between $1000 and $1500"
+                                class="icheck required"
                               />
-                              DECLINE TO ANSWER</label
-                            >
+                            </label>
                           </div>
                         </div>
                         <!-- QUESTION 17 -->
@@ -3207,6 +3230,7 @@
                         <!-- QUESTION 18 -->
                         <div class="step">
                           <h4 class="main_question">
+                            <strong>Question 18/20</strong>
                             What challenges or problems have you experienced
                             when trying to find housing?
                           </h4>
@@ -3403,6 +3427,7 @@
                         <div class="step">
                           <div class="form-group">
                             <h4 class="main_question">
+                              <strong>Question 19/20</strong>
                               What experiences would you need support with to
                               help you through your housing journey?
                             </h4>
