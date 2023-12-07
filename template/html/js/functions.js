@@ -209,5 +209,74 @@
       // Simula un clic en el botón StartSurvey cuando se hace clic en el botón forward
       document.getElementById("SurveyButton").click();
     });
+
+    // function validateForm() {
+    //   var startfirstname = document.forms["startForm"]["startfirstname"].value;
+    //   var startlocation = document.forms["startForm"]["startlocation"].value;
+    //   var startemail = document.forms["startForm"]["startemail"].value;
+    //   var radios = document.getElementsByName("question_1111");
+    //   var radioSeleccionado = false;
+    //   var radios2 = document.getElementsByName("question_1112");
+    //   var radioSeleccionado2 = false;
+
+    //   if (startfirstname === "") {
+    //     Swal.fire({
+    //       title: "Error",
+    //       text: "Enter your Name !",
+    //       icon: "error",
+    //     });
+    //     return false;
+    //   }
+    //   if (startlocation === "") {
+    //     Swal.fire({
+    //       title: "Error",
+    //       text: "Enter the Location !",
+    //       icon: "error",
+    //     });
+    //     return false;
+    //   }
+
+    //   if (startemail === "") {
+    //     Swal.fire({
+    //       title: "Error",
+    //       text: "Enter your Email !",
+    //       icon: "error",
+    //     });
+    //     return false;
+    //   }
+
+    //   for (var i = 0; i < radios.length; i++) {
+    //     if (radios[i].checked) {
+    //       radioSeleccionado = true;
+    //       break;
+    //     }
+    //   }
+
+    //   if (radioSeleccionado) {
+    //   } else {
+    //     Swal.fire({
+    //       title: "Error",
+    //       text: "Enter your Name !",
+    //       icon: "error",
+    //     });
+    //   }
+
+    //   for (var i = 0; i < radios2.length; i++) {
+    //     if (radios2[i].checked) {
+    //       radioSeleccionado2 = true;
+    //       break;
+    //     }
+    //   }
+
+    //   if (radioSeleccionado2) {
+    //   } else {
+    //     Swal.fire({
+    //       title: "Error",
+    //       text: "Enter your Name !",
+    //       icon: "error",
+    //     });
+    //   }
+    //   return true;
+    // }
   });
 })(window.jQuery); // JavaScript Document
